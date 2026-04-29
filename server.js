@@ -21,6 +21,7 @@ const cors    = require('cors');
 
 const app = express();
 
+app.set('trust proxy', 1);
 
 // npm install express-rate-limit
 const rateLimit = require('express-rate-limit');
