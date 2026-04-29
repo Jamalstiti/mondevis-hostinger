@@ -64,7 +64,7 @@ app.get('/health', (req, res) => {
  * Proxies to Claude API with the secret key stored server-side.
  * Supports text, PDF documents, and images.
  */
-app.post('/generate-quote', async (req, res) => {
+app.post('/generate-quote', limiter, async (req, res) => {
   const apiKey = process.env.ANTHROPIC_API_KEY;
 
   if (!apiKey) {
