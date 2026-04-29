@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Mondevis — Devis de Construction & Rénovation en ligne | Gratuit jusqu'en 2027</title>
+<meta name="description" content="Obtenez un devis précis pour vos travaux de construction, rénovation, extension ou aménagement. Service rapide, fiable et mondial. Gratuit jusqu'au 30 juin 2027. Particuliers et professionnels du bâtiment."/>
+<meta name="keywords" content="devis construction, devis rénovation, devis travaux, estimation travaux, devis en ligne, devis bâtiment, devis maison, devis appartement, devis extension, devis cuisine, devis salle de bain, devis toiture, devis charpente, devis piscine, devis architecte, devis plomberie, devis électricité, devis carrelage, devis peinture, devis isolation, prix travaux, coût rénovation, estimation chantier, devis professionnel, devis particulier, mondevis, construction neuve, devis immédiat, devis rapide, devis gratuit travaux, quote construction, renovation quote, building estimate, construction estimate, presupuesto construcción, Kostenvoranschlag Bau, preventivo costruzione"/>
+<meta property="og:title" content="Mondevis — Devis Construction & Rénovation | Gratuit jusqu'en 2027"/>
+<meta property="og:description" content="Estimez vos projets de construction et rénovation en toute confiance. Devis précis en quelques minutes. Gratuit jusqu'au 30 juin 2027. Service mondial, 10 langues."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://www.mondevis.click"/>
+<meta property="og:image" content="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&h=630&fit=crop&q=80"/>
+<meta property="og:site_name" content="Mondevis"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Mondevis — Devis Construction & Rénovation | Gratuit jusqu'en 2027"/>
+<meta name="twitter:description" content="Devis précis pour tous vos projets. Gratuit jusqu'au 30 juin 2027."/>
+<link rel="canonical" href="https://www.mondevis.click"/>
+<meta name="robots" content="index, follow"/>
+<meta name="author" content="Mondevis"/>
+<meta name="theme-color" content="#C8832A"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Mondevis","description":"Service de devis en ligne pour travaux de construction et rénovation.","url":"https://www.mondevis.click","email":"plan@mondevis.click","priceRange":"€","areaServed":"Worldwide","offers":{"@type":"Offer","price":"0.00","priceCurrency":"EUR","description":"Gratuit jusqu'au 30 juin 2027"}}</script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Syne:wght@600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --cream:#F5F0E8; --ink:#1A1612; --ochre:#C8832A; --ochre-light:#E8A94A;
+  --stone:#8C8070; --stone-light:#D6CFC4; --white:#FDFBF7;
+  --bg:#0A0B0A; --s1:#111312; --s2:#181A18; --s3:#1F221F;
+  --border:#272B27; --border2:#323632;
+  --accent:#4ADE80; --accent2:#22C55E; --gold:#F59E0B; --muted:#6B7A6E; --muted2:#333A34;
+}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);overflow-x:hidden;cursor:none}
+
+/* ── CURSOR ── */
+.cursor{position:fixed;width:12px;height:12px;background:var(--ochre);border-radius:50%;pointer-events:none;z-index:9999;transition:transform .15s,opacity .2s;transform:translate(-50%,-50%)}
+.cursor-ring{position:fixed;width:40px;height:40px;border:1.5px solid var(--ochre);border-radius:50%;pointer-events:none;z-index:9998;transition:transform .4s,width .3s,height .3s,opacity .3s;transform:translate(-50%,-50%);opacity:.6}
+
+/* ── PROMO BANNER ── */
+.promo-bar{background:var(--ochre);text-align:center;padding:9px 20px;font-size:13px;font-weight:600;color:white;letter-spacing:.3px;position:relative;z-index:210}
+.promo-bar em{font-style:normal;background:rgba(255,255,255,.2);padding:2px 10px;border-radius:100px;margin:0 6px}
+
+/* ── LANG TOPBAR ── */
+.lang-topbar{position:sticky;top:0;z-index:200;display:flex;justify-content:flex-end;align-items:center;padding:6px 60px;background:var(--ink);border-bottom:1px solid rgba(255,255,255,.08);gap:6px}
+.lang-active-btn{display:flex;align-items:center;gap:7px;background:rgba(200,131,42,.12);border:1px solid var(--ochre);color:var(--ochre);padding:4px 12px;font-size:12px;font-weight:600;border-radius:2px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .2s;white-space:nowrap}
+.lang-active-btn svg{transition:transform .2s}
+.lang-active-btn.open svg{transform:rotate(180deg)}
+.lang-dropdown-menu{position:absolute;top:calc(100% + 4px);right:60px;background:var(--ink);border:1px solid rgba(255,255,255,.12);border-radius:4px;display:none;z-index:300;box-shadow:0 16px 40px rgba(0,0,0,.6);min-width:190px;max-height:340px;overflow-y:auto}
+.lang-dropdown-menu.open{display:block}
+.lang-opt{display:flex;align-items:center;gap:10px;padding:10px 16px;font-size:13px;cursor:pointer;color:rgba(245,240,232,.7);transition:background .15s,color .15s;border-bottom:1px solid rgba(255,255,255,.05)}
+.lang-opt:last-child{border-bottom:none}
+.lang-opt:hover{background:rgba(200,131,42,.1);color:var(--cream)}
+.lang-opt.active{color:var(--ochre);font-weight:600}
+.lang-opt-flag{font-size:17px;width:22px;text-align:center}
+.lang-opt-name{flex:1}
+.lang-opt-code{font-size:10px;color:var(--stone);font-weight:600;letter-spacing:1px}
+
+/* ── NAV ── */
+nav{position:sticky;top:37px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:20px 60px;transition:background .4s,padding .3s}
+nav.scrolled{background:rgba(245,240,232,.92);backdrop-filter:blur(12px);padding:14px 60px;border-bottom:1px solid var(--stone-light)}
+.nav-logo{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:var(--ink);text-decoration:none;letter-spacing:-.5px}
+.nav-logo span{color:var(--ochre)}
+.nav-links{display:flex;gap:40px;list-style:none;align-items:center}
+.nav-links a{text-decoration:none;color:var(--stone);font-size:14px;font-weight:500;letter-spacing:.5px;text-transform:uppercase;transition:color .2s}
+.nav-links a:hover{color:var(--ink)}
+.nav-tool-highlight{color:white!important;font-weight:700!important;background:var(--ink)!important;padding:10px 20px!important;border-radius:2px;transition:background .2s!important}
+.nav-tool-highlight:hover{background:var(--ochre)!important;color:white!important}
+
+/* ── HERO ── */
+.hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;position:relative;overflow:hidden}
+.hero-left{display:flex;flex-direction:column;justify-content:center;padding:140px 60px 80px;position:relative;z-index:2}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--ochre);margin-bottom:32px}
+.hero-badge::before{content:'';display:block;width:30px;height:1px;background:var(--ochre)}
+.hero-title{font-family:'Playfair Display',serif;font-size:clamp(52px,5.5vw,80px);font-weight:900;line-height:1;letter-spacing:-2px;color:var(--ink);margin-bottom:28px}
+.hero-title em{font-style:italic;color:var(--ochre)}
+.hero-subtitle{font-size:17px;color:var(--stone);line-height:1.7;max-width:420px;margin-bottom:48px;font-weight:300}
+.hero-actions{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.btn-primary{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--cream);text-decoration:none;padding:16px 32px;font-size:14px;font-weight:600;letter-spacing:.5px;border-radius:2px;transition:background .25s,transform .2s;border:none;cursor:none}
+.btn-primary:hover{background:var(--ochre);transform:translateY(-2px)}
+.btn-secondary{display:inline-flex;align-items:center;gap:8px;color:var(--ink);text-decoration:none;font-size:14px;font-weight:500;border-bottom:1px solid var(--stone-light);padding-bottom:2px;transition:border-color .2s,color .2s;cursor:none}
+.btn-secondary:hover{color:var(--ochre);border-color:var(--ochre)}
+.hero-stats{display:flex;gap:48px;margin-top:64px;padding-top:40px;border-top:1px solid var(--stone-light)}
+.stat-num{font-family:'Playfair Display',serif;font-size:36px;font-weight:700;color:var(--ink)}
+.stat-label{font-size:13px;color:var(--stone);margin-top:4px;text-transform:uppercase;letter-spacing:1px}
+.hero-right{position:relative;overflow:hidden}
+.hero-image-grid{display:grid;grid-template-rows:1fr 1fr;grid-template-columns:1fr 1fr;height:100%;gap:4px;padding:140px 0 0 4px}
+.hero-img{overflow:hidden;position:relative}
+.hero-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease;filter:saturate(.85)}
+.hero-img:hover img{transform:scale(1.04)}
+.hero-img-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(200,131,42,.12),transparent);pointer-events:none}
+.hero-img.tall{grid-row:span 2}
+
+/* ── MARQUEE ── */
+.marquee-wrap{background:var(--ink);overflow:hidden;padding:18px 0;border-top:2px solid var(--ochre)}
+.marquee-track{display:flex;gap:60px;animation:marquee 22s linear infinite;white-space:nowrap}
+.marquee-item{display:inline-flex;align-items:center;gap:16px;font-size:13px;letter-spacing:2.5px;text-transform:uppercase;color:var(--stone-light);font-weight:500}
+.marquee-dot{color:var(--ochre);font-size:18px}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* ── SECTIONS ── */
+section{padding:120px 60px}
+.section-label{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--ochre);font-weight:600;margin-bottom:20px;display:flex;align-items:center;gap:12px}
+.section-label::after{content:'';display:block;width:40px;height:1px;background:var(--ochre)}
+.section-title{font-family:'Playfair Display',serif;font-size:clamp(36px,4vw,58px);font-weight:700;line-height:1.1;letter-spacing:-1.5px;color:var(--ink)}
+
+/* ── HOW ── */
+.how{background:var(--white)}
+.how-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:80px;align-items:center;margin-top:60px}
+.how-image{position:relative;aspect-ratio:3/4;overflow:hidden;border-radius:2px}
+.how-image img{width:100%;height:100%;object-fit:cover;filter:saturate(.8)}
+.how-image-badge{position:absolute;bottom:32px;left:32px;background:var(--ochre);color:white;padding:14px 20px;font-size:13px;font-weight:600;border-radius:2px;line-height:1.4}
+.how-steps{display:flex;flex-direction:column;gap:0}
+.step{display:grid;grid-template-columns:60px 1fr;gap:28px;padding:36px 0;border-bottom:1px solid var(--stone-light);transition:padding-left .3s}
+.step:last-child{border-bottom:none}
+.step:hover{padding-left:8px}
+.step-num{font-family:'Playfair Display',serif;font-size:48px;font-weight:900;color:var(--stone-light);line-height:1;transition:color .3s}
+.step:hover .step-num{color:var(--ochre)}
+.step-content h3{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;margin-bottom:8px;color:var(--ink)}
+.step-content p{font-size:15px;color:var(--stone);line-height:1.6;font-weight:300}
+
+/* ── AUDIENCE ── */
+.audience{background:var(--cream)}
+.audience-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:60px}
+.audience-card{position:relative;overflow:hidden;border-radius:2px;aspect-ratio:4/3;cursor:none}
+.audience-card img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease;filter:saturate(.75) brightness(.85)}
+.audience-card:hover img{transform:scale(1.06);filter:saturate(.9) brightness(.9)}
+.audience-card-content{position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(26,22,18,.85) 100%);display:flex;flex-direction:column;justify-content:flex-end;padding:36px}
+.card-tag{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ochre-light);font-weight:600;margin-bottom:10px}
+.audience-card-content h3{font-family:'Playfair Display',serif;font-size:28px;font-weight:700;color:var(--white);line-height:1.2;margin-bottom:12px}
+.audience-card-content p{font-size:14px;color:rgba(253,251,247,.75);line-height:1.6;font-weight:300}
+
+/* ── TESTIMONIALS ── */
+.testimonials{background:var(--ink);padding:120px 60px}
+.testimonials .section-label{color:var(--ochre-light)}
+.testimonials .section-label::after{background:var(--ochre-light)}
+.testimonials .section-title{color:var(--cream)}
+.testimonial-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:60px}
+.testimonial-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);padding:48px;transition:background .3s}
+.testimonial-card:hover{background:rgba(255,255,255,.07)}
+.quote-mark{font-family:'Playfair Display',serif;font-size:72px;color:var(--ochre);line-height:.6;margin-bottom:24px;display:block}
+.testimonial-text{font-size:17px;color:rgba(245,240,232,.85);line-height:1.7;font-weight:300;font-style:italic;margin-bottom:32px}
+.testimonial-author{display:flex;align-items:center;gap:16px}
+.author-avatar{width:44px;height:44px;border-radius:50%;overflow:hidden;border:2px solid var(--ochre)}
+.author-avatar img{width:100%;height:100%;object-fit:cover}
+.author-name{font-weight:600;font-size:15px;color:var(--cream)}
+.author-loc{font-size:13px;color:var(--stone);margin-top:2px}
+.stars{color:var(--ochre);font-size:13px;margin-top:4px}
+
+/* ── TOOL SECTION (embedded global) ── */
+.tool-section{background:var(--ochre);padding:80px 0 0;position:relative;overflow:hidden}
+.tool-section::before{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");opacity:.5;pointer-events:none;z-index:0}
+.tool-intro{position:relative;z-index:1;text-align:center;padding:0 60px 60px}
+.tool-intro .section-label{justify-content:center;color:white!important}
+.tool-intro .section-label::after{display:none}
+.tool-intro .section-label::before{content:'';display:block;width:40px;height:1px;background:rgba(255,255,255,.6)}
+.tool-intro .section-title{color:white!important}
+.tool-intro p{color:rgba(255,255,255,.85);font-size:16px;margin-top:16px;font-weight:300}
+.free-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);color:white;padding:8px 20px;border-radius:100px;font-size:13px;font-weight:600;margin-top:20px}
+.free-badge .dot{width:8px;height:8px;border-radius:50%;background:white;animation:blink 1.4s infinite}
+@keyframes blink{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(74,222,128,.4)}50%{opacity:.6;box-shadow:0 0 0 4px transparent}}
+
+/* ── TOOL APP ── */
+.app{position:relative;z-index:1;display:grid;grid-template-columns:400px 1fr;min-height:80vh;border-top:1px solid rgba(200,131,42,.3)}
+.form-panel{border-right:1px solid var(--stone-light);display:flex;flex-direction:column;overflow-y:auto;background:var(--white)}
+.section-head{padding:24px 28px 12px;font-family:'Syne',sans-serif;font-size:10px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--border)}
+.form-inner{padding:20px 28px;display:flex;flex-direction:column;gap:18px}
+.fld{display:flex;flex-direction:column;gap:7px}
+.fld label{font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone)}
+.fld input,.fld select,.fld textarea{background:var(--cream);border:1px solid var(--stone-light);color:var(--ink);padding:10px 13px;font-size:13px;font-family:'DM Sans',sans-serif;border-radius:8px;outline:none;transition:border-color .2s,box-shadow .2s;width:100%}
+.fld input:focus,.fld select:focus,.fld textarea:focus{border-color:var(--ochre);box-shadow:0 0 0 3px rgba(200,131,42,.08)}
+.fld input::placeholder,.fld textarea::placeholder{color:var(--stone-light)}
+.fld select option{background:white;color:var(--ink)}
+.fld textarea{resize:vertical;min-height:72px;line-height:1.5}
+.fld-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.country-wrap{position:relative}
+.country-flag-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);font-size:18px;pointer-events:none}
+.country-wrap input{padding-left:42px!important}
+.country-dropdown{position:absolute;top:calc(100% + 4px);left:0;right:0;background:white;border:1px solid var(--stone-light);border-radius:8px;max-height:200px;overflow-y:auto;z-index:100;display:none;box-shadow:0 12px 32px rgba(0,0,0,.12)}
+.country-dropdown.open{display:block}
+.country-item{display:flex;align-items:center;gap:10px;padding:9px 14px;font-size:13px;cursor:pointer;transition:background .15s;color:var(--ink)}
+.country-item:hover{background:var(--cream)}
+/* Region/Town fields that appear after country selection */
+.location-fields{display:none;flex-direction:column;gap:10px;animation:fadeIn .3s ease}
+.location-fields.show{display:flex}
+@keyframes fadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+.slider-val{font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:var(--ochre)}
+input[type=range]{width:100%;height:3px;-webkit-appearance:none;background:var(--stone-light);border-radius:2px;cursor:pointer;outline:none;margin-top:10px}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;border-radius:50%;background:var(--ochre);box-shadow:0 0 8px rgba(200,131,42,.4);cursor:pointer}
+.pills{display:flex;flex-wrap:wrap;gap:7px}
+.pill{display:flex;align-items:center;gap:6px;background:var(--cream);border:1px solid var(--stone-light);padding:7px 12px;border-radius:6px;font-size:12px;cursor:pointer;transition:all .15s;user-select:none;line-height:1;color:var(--ink)}
+.pill input{display:none}
+.pill:has(input:checked){border-color:var(--ochre);background:rgba(200,131,42,.08);color:var(--ochre)}
+.upload-zone{border:1.5px dashed var(--stone-light);border-radius:10px;padding:16px;text-align:center;cursor:pointer;transition:all .2s;position:relative;background:var(--cream)}
+.upload-zone:hover,.upload-zone.drag{border-color:var(--ochre);background:rgba(200,131,42,.04)}
+.upload-zone input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.upload-icon{font-size:24px;margin-bottom:6px}
+.upload-label{font-size:12px;color:var(--stone);line-height:1.5}
+.upload-label strong{color:var(--ink);display:block;font-size:13px;margin-bottom:3px}
+.files-list{display:flex;flex-direction:column;gap:6px;margin-top:10px}
+.file-chip{display:flex;align-items:center;gap:8px;background:var(--cream);border:1px solid var(--stone-light);border-radius:6px;padding:7px 10px;font-size:12px;color:var(--ink)}
+.fc-icon{font-size:14px;flex-shrink:0}
+.fc-name{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fc-size{color:var(--stone);font-size:11px;white-space:nowrap}
+.fc-del{background:none;border:none;color:var(--stone);cursor:pointer;font-size:14px;line-height:1;transition:color .15s}
+.fc-del:hover{color:#f87171}
+.btn-gen{background:var(--ochre);color:white;border:none;padding:13px 20px;font-size:14px;font-weight:700;font-family:'Syne',sans-serif;border-radius:9px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:9px;transition:all .2s;width:100%;box-shadow:0 4px 20px rgba(200,131,42,.25)}
+.btn-gen:hover:not(:disabled){background:var(--ochre-light);transform:translateY(-1px);box-shadow:0 8px 28px rgba(200,131,42,.35)}
+.btn-gen:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.btn-batch{background:transparent;color:var(--gold);border:1px solid rgba(245,158,11,.35);padding:10px 16px;font-size:13px;font-weight:600;font-family:'Syne',sans-serif;border-radius:8px;cursor:pointer;width:100%;display:flex;align-items:center;justify-content:center;gap:8px;transition:all .2s;margin-top:8px}
+.btn-batch:hover{background:rgba(245,158,11,.08);border-color:var(--gold)}
+
+/* ── OUTPUT ── */
+.out-panel{display:flex;flex-direction:column;overflow-y:auto;padding:28px 32px;gap:20px;background:var(--white)}
+.status-row{display:flex;align-items:center;gap:10px;padding-bottom:18px;border-bottom:1px solid var(--stone-light)}
+.stat-pill{display:flex;align-items:center;gap:6px;padding:4px 12px;border-radius:100px;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;background:var(--cream);border:1px solid var(--stone-light);color:var(--stone);transition:all .3s}
+.stat-pill.loading{border-color:var(--gold);color:var(--gold);background:rgba(245,158,11,.07)}
+.stat-pill.ok{border-color:var(--accent);color:var(--accent);background:rgba(74,222,128,.07)}
+.stat-pill.err{border-color:#f87171;color:#f87171;background:rgba(248,113,113,.07)}
+.stat-dot{width:5px;height:5px;border-radius:50%;background:currentColor}
+.stat-dot.spin{animation:rot .8s linear infinite}
+@keyframes rot{to{transform:rotate(360deg)}}
+.stat-detail{font-size:12px;color:var(--muted)}
+.empty{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;color:var(--muted);min-height:380px}
+.photo-grid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:180px 120px;gap:4px;border-radius:12px;overflow:hidden;margin-bottom:20px;width:100%;max-width:400px}
+.pg-img{position:relative;overflow:hidden}
+.pg-img img{width:100%;height:100%;object-fit:cover;filter:brightness(.7) saturate(.8);transition:transform .5s ease}
+.pg-img:hover img{transform:scale(1.06)}
+.pg-img.tall{grid-row:span 2}
+.pg-caption{position:absolute;bottom:0;left:0;right:0;padding:10px 12px;font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.6);background:linear-gradient(transparent,rgba(0,0,0,.55))}
+.empty-tagline{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--ink)}
+.empty-sub{font-size:13px;color:var(--stone);line-height:1.6;max-width:280px}
+.qcard{background:var(--white);border:1px solid var(--stone-light);border-radius:12px;overflow:hidden;animation:fadeup .4s ease both}
+@keyframes fadeup{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.qcard-photo-wrap{position:relative;overflow:hidden}
+.qcard-photo{width:100%;height:160px;object-fit:cover;filter:brightness(.65) saturate(.75)}
+.qcard-photo-label{position:absolute;bottom:12px;left:16px;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.55)}
+.qcard-head{padding:22px 26px;border-bottom:1px solid var(--stone-light);display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.qcard-id{font-family:'Syne',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ochre);margin-bottom:5px}
+.qcard-title{font-family:'Syne',sans-serif;font-size:19px;font-weight:800;line-height:1.2;color:var(--ink)}
+.qcard-meta{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px;font-size:12px;color:var(--stone)}
+.qcard-ttc-label{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--stone);text-align:right}
+.qcard-ttc{font-family:'Syne',sans-serif;font-size:28px;font-weight:800;color:var(--ochre);text-align:right;white-space:nowrap;margin-top:3px}
+.qcard-ttc small{font-size:13px;font-weight:400;color:var(--stone)}
+.qitems{padding:18px 26px}
+.qtable{width:100%;border-collapse:collapse}
+.qtable th{font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone);padding:0 0 10px;text-align:left;border-bottom:1px solid var(--stone-light)}
+.qtable th:last-child{text-align:right}
+.qtable td{padding:10px 0;font-size:13px;border-bottom:1px solid rgba(140,128,112,.12);color:var(--ink)}
+.qtable td:last-child{text-align:right;font-family:'Syne',sans-serif;font-weight:600;font-size:13px}
+.td-detail{font-size:11px;color:var(--stone);margin-top:2px}
+.qtotals{padding:14px 26px 20px;background:var(--cream);display:flex;flex-direction:column;gap:7px}
+.trow{display:flex;justify-content:space-between;font-size:13px;color:var(--ink)}
+.trow span:last-child{font-weight:500}
+.trow.big{font-family:'Syne',sans-serif;font-size:16px;font-weight:700;color:var(--ochre);padding-top:10px;border-top:1px solid var(--stone-light);margin-top:4px}
+.qsummary{padding:18px 26px;border-top:1px solid var(--stone-light)}
+.qs-label{font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone);margin-bottom:10px}
+.qs-text{font-size:13px;line-height:1.7;color:var(--stone);font-style:italic}
+.qfiles{padding:14px 26px;border-top:1px solid var(--stone-light);display:flex;flex-wrap:wrap;gap:8px}
+.qfile-tag{display:flex;align-items:center;gap:6px;background:rgba(200,131,42,.08);border:1px solid rgba(200,131,42,.2);color:var(--ochre);padding:4px 10px;border-radius:100px;font-size:11px}
+.skel{background:linear-gradient(90deg,var(--cream) 25%,var(--stone-light) 50%,var(--cream) 75%);background-size:200% 100%;animation:shim 1.4s infinite;border-radius:4px}
+@keyframes shim{0%{background-position:200% 0}100%{background-position:-200% 0}}
+.batch-wrap{display:flex;flex-direction:column;gap:10px}
+.batch-title{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:2px}
+.bcard{background:var(--s2);border:1px solid var(--border);border-radius:8px;padding:14px 18px;display:flex;align-items:center;gap:14px;animation:fadeup .3s ease both;color:#ECEEED}
+.bnum{font-family:'Syne',sans-serif;font-size:11px;color:var(--muted);width:26px;flex-shrink:0}
+.binfo{flex:1}
+.blabel{font-size:13px;font-weight:500}
+.bsub{font-size:11px;color:var(--muted);margin-top:2px}
+.bprice{font-family:'Syne',sans-serif;font-size:16px;font-weight:700;color:var(--accent);white-space:nowrap}
+.bstatus{font-size:10px;padding:3px 9px;border-radius:100px;font-weight:600;letter-spacing:.5px;background:rgba(74,222,128,.1);color:var(--accent);border:1px solid rgba(74,222,128,.25);flex-shrink:0}
+.bstatus.pending{background:rgba(245,158,11,.08);color:var(--gold);border-color:rgba(245,158,11,.25)}
+.pay-success-banner{display:flex;align-items:center;gap:10px;padding:12px 16px;background:rgba(200,131,42,.08);border:1px solid rgba(200,131,42,.25);border-radius:8px;font-size:13px;color:var(--ochre);animation:fadeup .3s ease}
+
+/* ── GLOBAL MODAL — removed (free period, no payment needed) ── */
+
+/* ── CONTACT FORM (redesign) ── */
+.cta-section{background:var(--ochre);padding:100px 60px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;position:relative;overflow:hidden}
+.cta-section::before{content:'"';position:absolute;font-family:'Playfair Display',serif;font-size:400px;color:rgba(255,255,255,.08);top:-80px;right:-30px;line-height:1;pointer-events:none}
+.cta-section .section-title{color:white}
+.cta-desc{font-size:17px;color:rgba(255,255,255,.8);line-height:1.7;margin-top:20px;font-weight:300}
+.cta-form{display:flex;flex-direction:column;gap:16px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-group{display:flex;flex-direction:column;gap:8px}
+.form-group label{font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.7)}
+.form-group input,.form-group select,.form-group textarea{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);color:white;padding:14px 18px;font-size:15px;font-family:'DM Sans',sans-serif;border-radius:2px;outline:none;transition:border-color .2s,background .2s;cursor:none}
+.form-group input::placeholder{color:rgba(255,255,255,.45)}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:white;background:rgba(255,255,255,.22)}
+.form-group select option{color:var(--ink);background:white}
+.form-group textarea{resize:none;height:100px}
+.country-form-wrap{position:relative}
+.country-form-flag{position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:16px;pointer-events:none}
+.country-form-input{padding-left:44px!important}
+.country-form-drop{position:absolute;top:calc(100% + 4px);left:0;right:0;background:rgba(30,20,10,.98);border:1px solid rgba(200,131,42,.3);border-radius:6px;max-height:180px;overflow-y:auto;display:none;z-index:300;box-shadow:0 12px 32px rgba(0,0,0,.5)}
+.country-form-drop.open{display:block}
+.country-form-item{display:flex;align-items:center;gap:10px;padding:9px 14px;font-size:13px;cursor:pointer;color:rgba(245,240,232,.9);transition:background .15s}
+.country-form-item:hover{background:rgba(200,131,42,.15)}
+.form-location-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;display:none}
+.form-location-row.show{display:grid;animation:fadeIn .3s ease}
+.btn-white{background:white;color:var(--ochre);border:none;padding:16px 36px;font-size:15px;font-weight:700;font-family:'DM Sans',sans-serif;letter-spacing:.5px;border-radius:2px;cursor:none;transition:background .2s,transform .2s;align-self:flex-start;display:flex;align-items:center;gap:8px}
+.btn-white:hover{background:var(--ink);color:white;transform:translateY(-2px)}
+.form-note{font-size:12px;color:rgba(255,255,255,.6);margin-top:4px}
+.upload-cta-zone{border:1.5px dashed rgba(255,255,255,.3);border-radius:6px;padding:16px;text-align:center;cursor:pointer;position:relative;transition:all .2s;background:rgba(255,255,255,.05)}
+.upload-cta-zone:hover{border-color:white;background:rgba(255,255,255,.12)}
+.upload-cta-zone input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.upload-cta-label{font-size:13px;color:rgba(255,255,255,.6);line-height:1.5}
+.upload-cta-label strong{color:white;display:block;font-size:14px;margin-bottom:3px}
+.cta-files-list{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.cta-file-chip{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:4px;padding:7px 10px;font-size:12px;color:white}
+.cta-fc-name{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cta-fc-del{background:none;border:none;color:rgba(255,255,255,.5);cursor:pointer;font-size:14px;line-height:1;transition:color .15s}
+.cta-fc-del:hover{color:white}
+
+/* ── FOOTER ── */
+footer{background:var(--ink);padding:70px 60px 40px;border-top:2px solid var(--ochre)}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr;gap:60px;margin-bottom:60px}
+.footer-brand .nav-logo{font-size:26px;display:block;margin-bottom:16px;color:var(--cream);font-family:'Playfair Display',serif;text-decoration:none}
+.footer-brand p{font-size:14px;color:var(--stone);line-height:1.7;font-weight:300;max-width:280px}
+.footer-email{margin-top:20px;display:inline-flex;align-items:center;gap:8px;color:var(--ochre-light);text-decoration:none;font-size:14px;transition:color .2s}
+.footer-email:hover{color:var(--cream)}
+.footer-col h4{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--stone);font-weight:600;margin-bottom:24px}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+.footer-col ul a{color:rgba(245,240,232,.65);text-decoration:none;font-size:14px;transition:color .2s}
+.footer-col ul a:hover{color:var(--cream)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:32px;border-top:1px solid rgba(255,255,255,.08)}
+.footer-bottom p{font-size:13px;color:var(--stone)}
+
+/* ── ANIMATIONS ── */
+.fade-up{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.fade-up.visible{opacity:1;transform:translateY(0)}
+.fade-up-delay-1{transition-delay:.1s}
+.fade-up-delay-2{transition-delay:.2s}
+.fade-up-delay-3{transition-delay:.3s}
+
+/* ── RESPONSIVE ── */
+@media(max-width:900px){
+  .lang-topbar{padding:6px 16px}
+  nav{padding:16px 20px;top:33px}
+  nav.scrolled{padding:12px 20px}
+  .nav-links{display:none}
+  .hero{grid-template-columns:1fr;min-height:auto}
+  .hero-left{padding:120px 24px 60px}
+  .hero-right{height:280px}
+  .hero-image-grid{padding-top:0}
+  section{padding:80px 24px}
+  .how-grid,.audience-grid,.testimonial-grid,.cta-section,.footer-grid{grid-template-columns:1fr}
+  .cta-section{padding:70px 24px}
+  .form-row{grid-template-columns:1fr}
+  .hero-stats{gap:24px;flex-wrap:wrap}
+  .app{grid-template-columns:1fr}
+  .out-panel{padding:20px}
+  .tool-intro{padding:0 24px 40px}
+  footer{padding:50px 24px 30px}
+}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+</style>
+</head>
+<body>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+<!-- PROMO BAR -->
+<div class="promo-bar">
+  🎉 Offre de lancement — <em>Gratuit</em> jusqu'au 30 juin 2027 &nbsp;·&nbsp;
+  <span id="promoCountdown"></span>
+</div>
+
+<!-- LANG TOP BAR -->
+<div class="lang-topbar" style="position:relative;">
+  <span style="font-size:11px;color:var(--stone);letter-spacing:1px;text-transform:uppercase;margin-right:6px;">🌍</span>
+  <button class="lang-active-btn" id="langActivBtn" onclick="toggleLangDrop()">
+    <span id="langActivLabel">🇫🇷 Français</span>
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 3.5l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+  </button>
+  <div class="lang-dropdown-menu" id="langDropMenu"></div>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">Mon<span>devis</span></a>
+  <ul class="nav-links">
+    <li><a href="#services" data-i18n="nav_services">Services</a></li>
+    <li><a href="#outil" class="nav-tool-highlight" data-i18n="nav_tool">Outil IA</a></li>
+    <li><a href="#avis" data-i18n="nav_reviews">Avis</a></li>
+    <li><a href="#contact" data-i18n="nav_cta">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" style="padding:0;">
+  <div class="hero-left">
+    <div class="hero-badge fade-up" data-i18n="hero_badge">Gratuit jusqu'au 30 juin 2027</div>
+    <h1 class="hero-title fade-up fade-up-delay-1" data-i18n="hero_title">Vos devis,<br><em>simplifiés</em><br>à l'extrême.</h1>
+    <p class="hero-subtitle fade-up fade-up-delay-2" data-i18n="hero_sub">Estimez vos projets de construction et de rénovation en toute confiance. Particuliers ou professionnels — recevez votre devis précis en quelques minutes.</p>
+    <div class="hero-actions fade-up fade-up-delay-3">
+      <a href="#outil" class="btn-primary"><span data-i18n="hero_cta">Générer mon devis</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
+      <a href="#comment" class="btn-secondary"><span data-i18n="hero_how">Comment ça marche</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1v12M1 7l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
+    </div>
+    <div class="hero-stats fade-up">
+      <div><div class="stat-num">150+</div><div class="stat-label" data-i18n="stat_quotes">Devis réalisés</div></div>
+      <div><div class="stat-num">48h</div><div class="stat-label" data-i18n="stat_delay">Délai moyen</div></div>
+      <div><div class="stat-num">0 €</div><div class="stat-label" data-i18n="stat_price">Jusqu'en juin 2027</div></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-image-grid">
+      <div class="hero-img tall"><img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&h=800&fit=crop&q=80" alt="Construction"/><div class="hero-img-overlay"></div></div>
+      <div class="hero-img"><img src="https://images.unsplash.com/photo-1489512093541-ffa415651a9c?w=600&h=400&fit=crop&q=80" alt="Blueprint"/><div class="hero-img-overlay"></div></div>
+      <div class="hero-img"><img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&h=400&fit=crop&q=80" alt="Materials"/><div class="hero-img-overlay"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span class="marquee-item"><span class="marquee-dot">◆</span><span data-i18n="mq1">Gratuit jusqu'en 2027</span></span>
+    <span class="marquee-item"><span class="marquee-dot">◆</span><span data-i18n="mq2">Particuliers & Professionnels</span></span>
+    <span class="marquee-item"><span class="marquee-dot">◆</span><span data-i18n="mq3">Réponse Rapide</span></span>
+    <span class="marquee-item"><span class="marquee-dot">◆</span><span data-i18n="mq5">100% Fiable</span></span>
+    <span class="marquee-item"><span class="marquee-dot">◆</span><span data-i18n="mq1">Gratuit jusqu'en 2027</span></span>
+    <span class="marquee-item"><span class="marquee-dot">◆</span><span data-i18n="mq2">Particuliers & Professionnels</span></span>
+    <span class="marquee-item"><span class="marquee-dot">◆</span><span data-i18n="mq3">Réponse Rapide</span></span>
+    <span class="marquee-item"><span class="marquee-dot">◆</span><span data-i18n="mq5">100% Fiable</span></span>
+  </div>
+</div>
+
+<!-- HOW -->
+<section class="how" id="comment">
+  <div class="section-label fade-up" data-i18n="how_label">Processus</div>
+  <h2 class="section-title fade-up" data-i18n="how_title">Comment ça<br>fonctionne ?</h2>
+  <div class="how-grid">
+    <div class="how-image fade-up">
+      <img src="https://images.unsplash.com/photo-1581093196867-ca3dba3c721b?w=600&h=900&fit=crop&q=80" alt="Plans"/>
+      <div class="how-image-badge" data-i18n="how_badge">✓ Réponse en<br>quelques minutes</div>
+    </div>
+    <div class="how-steps">
+      <div class="step fade-up"><div class="step-num">01</div><div class="step-content"><h3 data-i18n="step1_title">Saisissez votre pays, région & ville</h3><p data-i18n="step1_desc">Sélectionnez votre localisation et décrivez votre projet. Ajoutez vos plans ou photos si disponibles.</p></div></div>
+      <div class="step fade-up"><div class="step-num">02</div><div class="step-content"><h3 data-i18n="step2_title">L'IA génère votre devis</h3><p data-i18n="step2_desc">Notre IA analyse votre dossier et génère un devis précis, adapté aux prix locaux de votre région.</p></div></div>
+      <div class="step fade-up"><div class="step-num">03</div><div class="step-content"><h3 data-i18n="step3_title">Gérez votre budget sereinement</h3><p data-i18n="step3_desc">Anticipez vos travaux avec des estimations fiables. Pas de mauvaises surprises, pas de coûts cachés.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIENCE -->
+<section class="audience" id="services">
+  <div class="section-label fade-up" data-i18n="svc_label">Nos Services</div>
+  <h2 class="section-title fade-up" data-i18n="svc_title">Pour qui ?</h2>
+  <div class="audience-grid">
+    <div class="audience-card fade-up">
+      <img src="https://images.unsplash.com/photo-1657664066011-ed54a1be81d2?w=800&h=600&fit=crop&q=80" alt="Particulier"/>
+      <div class="audience-card-content">
+        <div class="card-tag" data-i18n="card1_tag">Particuliers</div>
+        <h3 data-i18n="card1_title">Estimez vos projets personnels</h3>
+        <p data-i18n="card1_desc">Rénovation, extension, construction — obtenez une estimation rapide et fiable pour anticiper sereinement vos travaux.</p>
+      </div>
+    </div>
+    <div class="audience-card fade-up fade-up-delay-1">
+      <img src="https://images.unsplash.com/photo-1513566896764-358e5c2ca5eb?w=800&h=600&fit=crop&q=80" alt="Professionnels"/>
+      <div class="audience-card-content">
+        <div class="card-tag" data-i18n="card2_tag">Professionnels</div>
+        <h3 data-i18n="card2_title">Gagnez du temps sur vos chantiers</h3>
+        <p data-i18n="card2_desc">Envoyez vos plans et descriptifs. Recevez des devis précis, sans erreurs. Concentrez-vous sur votre cœur de métier.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="avis">
+  <div class="section-label fade-up" data-i18n="test_label">Témoignages</div>
+  <h2 class="section-title fade-up" data-i18n="test_title">Ce que disent<br>nos clients</h2>
+  <div class="testimonial-grid">
+    <div class="testimonial-card fade-up">
+      <span class="quote-mark">"</span>
+      <p class="testimonial-text" data-i18n="test1_text">Mondevis m'a aidé à mieux gérer mon budget pour mes travaux de rénovation. Les estimations sont précises et le service est vraiment réactif.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&q=80" alt="Paul"/></div>
+        <div><div class="author-name">Paul M.</div><div class="author-loc">Lyon</div><div class="stars">★★★★★</div></div>
+      </div>
+    </div>
+    <div class="testimonial-card fade-up fade-up-delay-1">
+      <span class="quote-mark">"</span>
+      <p class="testimonial-text" data-i18n="test2_text">Grâce à cette plateforme, j'ai gagné un temps précieux sur mes devis et évité des erreurs coûteuses. Je recommande à tous les professionnels du bâtiment.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop&q=80" alt="Sophie"/></div>
+        <div><div class="author-name">Sophie L.</div><div class="author-loc">Paris</div><div class="stars">★★★★★</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- EMBEDDED GLOBAL AI TOOL                        -->
+<!-- ═══════════════════════════════════════════════ -->
+<div class="tool-section" id="outil">
+  <div class="tool-intro">
+    <div class="section-label" style="justify-content:center;color:var(--accent);">IA Devis</div>
+    <h2 class="section-title" style="color:var(--cream);" data-i18n="tool_title">Générez votre devis<br>en quelques secondes</h2>
+    <p data-i18n="tool_desc">Notre IA adapte les prix au marché local de votre pays et répond dans votre langue.</p>
+    <div class="free-badge"><div class="dot"></div><span data-i18n="tool_free">Gratuit jusqu'au 30 juin 2027</span></div>
+  </div>
+
+  <div class="app">
+    <!-- FORM PANEL -->
+    <div class="form-panel">
+      <div class="form-inner">
+
+        <!-- Country with autocomplete -->
+        <div class="fld">
+          <label data-i18n="lbl_country">Pays du projet</label>
+          <div class="country-wrap">
+            <span class="country-flag-icon" id="selFlag">🌍</span>
+            <input type="text" id="countryInput" placeholder="Rechercher un pays…" oninput="filterCountries(this.value)" onfocus="openCountryDrop()" autocomplete="off" data-i18n-ph="ph_country"/>
+            <div class="country-dropdown" id="countryDrop"></div>
+          </div>
+        </div>
+
+        <!-- Region + Town — appear after country selected -->
+        <div class="location-fields" id="locationFields">
+          <div class="fld">
+            <label data-i18n="lbl_region">Région / État / Province</label>
+            <input type="text" id="regionInput" placeholder="Ex: Île-de-France, California…" data-i18n-ph="ph_region"/>
+          </div>
+          <div class="fld">
+            <label data-i18n="lbl_city">Ville</label>
+            <input type="text" id="cityInput" placeholder="Ex: Paris, Dubai, Tokyo…" data-i18n-ph="ph_city"/>
+          </div>
+        </div>
+
+        <!-- Surface -->
+        <div class="fld">
+          <label><span data-i18n="lbl_surface">Surface</span> — <span class="slider-val" id="surfVal">40</span> m²</label>
+          <input type="range" id="surfSlider" min="5" max="500" value="40" oninput="document.getElementById('surfVal').textContent=this.value"/>
+        </div>
+
+        <!-- Material + Profile -->
+        <div class="fld-row">
+          <div class="fld">
+            <label data-i18n="lbl_mat">Gamme</label>
+            <select id="matSelect">
+              <option value="economy" data-i18n="mat_eco">Économique</option>
+              <option value="standard" selected data-i18n="mat_std">Standard</option>
+              <option value="premium" data-i18n="mat_pre">Premium</option>
+              <option value="luxury" data-i18n="mat_lux">Luxe</option>
+            </select>
+          </div>
+          <div class="fld">
+            <label data-i18n="lbl_profile">Profil</label>
+            <select id="profileSelect">
+              <option value="Individual" data-i18n="pro_indiv">Particulier</option>
+              <option value="Professional" data-i18n="pro_pro">Professionnel</option>
+              <option value="Developer" data-i18n="pro_dev">Promoteur</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Description -->
+        <div class="fld">
+          <label data-i18n="lbl_desc">Description du projet</label>
+          <textarea id="descInput" rows="3" placeholder="Ex: rénovation cuisine 25m², extension maison, villa avec piscine…" data-i18n-ph="ph_desc"></textarea>
+        </div>
+
+        <!-- Files -->
+        <div class="fld">
+          <label data-i18n="lbl_files">Plans & Documents</label>
+          <div class="upload-zone" id="uploadZone">
+            <input type="file" id="fileInput" multiple accept=".pdf,.png,.jpg,.jpeg,.webp" onchange="handleFiles(this.files)"/>
+            <div class="upload-icon">📎</div>
+            <div class="upload-label">
+              <strong data-i18n="upload_title">Glisser-déposer ou cliquer</strong>
+              <span data-i18n="upload_sub">PDF, photos, plans (max 10 Mo)</span>
+            </div>
+          </div>
+          <div class="files-list" id="filesList"></div>
+        </div>
+
+        <button class="btn-gen" id="btnGen" onclick="startGenerate()">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span data-i18n="btn_gen">Générer mon devis — Gratuit</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- OUTPUT PANEL -->
+    <div class="out-panel" id="outPanel">
+      <div class="status-row">
+        <div class="stat-pill" id="statPill"><div class="stat-dot"></div><span id="statText">Prêt</span></div>
+        <span class="stat-detail" id="statDetail" data-i18n="status_ready">Sélectionnez votre pays et cliquez sur Générer</span>
+      </div>
+      <div class="empty" id="emptyState">
+        <div class="photo-grid">
+          <div class="pg-img tall"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=600&fit=crop&q=80" alt="Architecture"/><div class="pg-caption">Architecture</div></div>
+          <div class="pg-img"><img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=400&h=200&fit=crop&q=80" alt="Construction"/><div class="pg-caption">Construction</div></div>
+          <div class="pg-img"><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=200&fit=crop&q=80" alt="Cuisine"/><div class="pg-caption">Rénovation</div></div>
+        </div>
+        <div class="empty-tagline" data-i18n="empty_title">Devis mondial, tarifs locaux</div>
+        <p class="empty-sub" data-i18n="empty_desc">Prix adaptés à chaque pays, réponse dans la langue choisie.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT FORM -->
+<section class="cta-section" id="contact" style="padding:80px 60px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;">
+  <div class="section-label fade-up" style="color:rgba(255,255,255,.7);justify-content:center;" data-i18n="cta_label">Contact</div>
+  <a href="mailto:plan@mondevis.click" class="fade-up" style="display:inline-flex;align-items:center;gap:12px;background:white;color:var(--ochre);text-decoration:none;padding:18px 40px;border-radius:2px;font-size:18px;font-weight:700;font-family:'DM Sans',sans-serif;letter-spacing:.3px;transition:background .2s,transform .2s;box-shadow:0 8px 32px rgba(0,0,0,.15);" onmouseover="this.style.background='var(--ink)';this.style.color='white';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='white';this.style.color='var(--ochre)';this.style.transform='translateY(0)'">
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="1" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M1 7l10 7 10-7" stroke="currentColor" stroke-width="1.8"/></svg>
+    plan@mondevis.click
+  </a>
+  <p class="fade-up" style="color:rgba(255,255,255,.6);font-size:13px;margin-top:20px;" data-i18n="form_note">Gratuit jusqu'au 30 juin 2027. Aucun engagement.</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="nav-logo">Mon<span style="color:var(--ochre)">devis</span></a>
+      <p data-i18n="footer_desc">Simplifiez vos devis avec confiance et efficacité. Service gratuit jusqu'au 30 juin 2027 pour particuliers et professionnels du bâtiment.</p>
+      <a href="mailto:plan@mondevis.click" class="footer-email">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="10" rx="1.5" stroke="currentColor" stroke-width="1.5"/><path d="M1 5l7 5 7-5" stroke="currentColor" stroke-width="1.5"/></svg>
+        plan@mondevis.click
+      </a>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer_nav">Navigation</h4>
+      <ul>
+        <li><a href="#" data-i18n="fnav_home">Accueil</a></li>
+        <li><a href="#services" data-i18n="nav_services">Services</a></li>
+        <li><a href="#outil" data-i18n="nav_tool">Outil IA</a></li>
+        <li><a href="#avis" data-i18n="nav_reviews">Avis clients</a></li>
+        <li><a href="#contact" data-i18n="fnav_contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p data-i18n="footer_copy">© 2025 Mondevis. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<script>
+// ══════════════════════════════════════════════
+// PROMO COUNTDOWN
+// ══════════════════════════════════════════════
+function updateCountdown() {
+  const end = new Date('2027-06-30T23:59:59');
+  const now = new Date();
+  const diff = end - now;
+  if (diff <= 0) { document.querySelector('.promo-bar').style.display='none'; return; }
+  const d = Math.floor(diff/86400000);
+  const h = Math.floor((diff%86400000)/3600000);
+  const m = Math.floor((diff%3600000)/60000);
+  const el = document.getElementById('promoCountdown');
+  if (el) el.textContent = `⏳ ${d}j ${h}h ${m}m restants`;
+}
+updateCountdown();
+setInterval(updateCountdown, 60000);
+
+// ══════════════════════════════════════════════
+// TRANSLATIONS
+// ══════════════════════════════════════════════
+const ALL_LANGS = [
+  {code:'fr',flag:'🇫🇷',name:'Français'},{code:'en',flag:'🇬🇧',name:'English'},
+  {code:'es',flag:'🇪🇸',name:'Español'},{code:'ar',flag:'🇸🇦',name:'العربية'},
+  {code:'pt',flag:'🇧🇷',name:'Português'},{code:'de',flag:'🇩🇪',name:'Deutsch'},
+  {code:'it',flag:'🇮🇹',name:'Italiano'},{code:'zh',flag:'🇨🇳',name:'中文'},
+  {code:'ja',flag:'🇯🇵',name:'日本語'},{code:'ru',flag:'🇷🇺',name:'Русский'},
+];
+
+const T = {
+  fr:{nav_services:'Services',nav_tool:'Outil IA',nav_reviews:'Avis',nav_cta:'Contact',hero_badge:'Gratuit jusqu\'au 30 juin 2027',hero_title:'Vos devis,<br><em>simplifiés</em><br>à l\'extrême.',hero_sub:'Estimez vos projets de construction et de rénovation en toute confiance. Particuliers ou professionnels — recevez votre devis précis en quelques minutes.',hero_cta:'Générer mon devis',hero_how:'Comment ça marche',stat_quotes:'Devis réalisés',stat_delay:'Délai moyen',stat_price:'Jusqu\'en juin 2027',mq1:'Gratuit jusqu\'en 2027',mq2:'Particuliers & Professionnels',mq3:'Réponse Rapide',mq4:'31 Pays',mq5:'100% Fiable',mq6:'IA Claude',how_label:'Processus',how_title:'Comment ça<br>fonctionne ?',how_badge:'✓ Réponse en<br>quelques minutes',step1_title:'Saisissez votre pays, région & ville',step1_desc:'Sélectionnez votre localisation et décrivez votre projet. Ajoutez vos plans ou photos si disponibles.',step2_title:'L\'IA génère votre devis',step2_desc:'Notre IA analyse votre dossier et génère un devis précis, adapté aux prix locaux de votre région.',step3_title:'Gérez votre budget sereinement',step3_desc:'Anticipez vos travaux avec des estimations fiables. Pas de mauvaises surprises, pas de coûts cachés.',svc_label:'Nos Services',svc_title:'Pour qui ?',card1_tag:'Particuliers',card1_title:'Estimez vos projets personnels',card1_desc:'Rénovation, extension, construction — obtenez une estimation rapide et fiable pour anticiper sereinement vos travaux.',card2_tag:'Professionnels',card2_title:'Gagnez du temps sur vos chantiers',card2_desc:'Envoyez vos plans et descriptifs. Recevez des devis précis, sans erreurs. Concentrez-vous sur votre cœur de métier.',test_label:'Témoignages',test_title:'Ce que disent<br>nos clients',test1_text:'Mondevis m\'a aidé à mieux gérer mon budget pour mes travaux de rénovation. Les estimations sont précises et le service est vraiment réactif.',test2_text:'Grâce à cette plateforme, j\'ai gagné un temps précieux sur mes devis et évité des erreurs coûteuses. Je recommande à tous les professionnels du bâtiment.',tool_title:'Générez votre devis<br>en quelques secondes',tool_desc:'Notre IA adapte les prix au marché local de votre pays et répond dans votre langue.',tool_free:'Gratuit jusqu\'au 30 juin 2027',form_title:'Configuration du devis',lbl_country:'Pays du projet',lbl_region:'Région / État / Province',lbl_city:'Ville',lbl_surface:'Surface',lbl_mat:'Gamme',lbl_profile:'Profil',lbl_desc:'Description du projet',lbl_files:'Plans & Documents',upload_title:'Glisser-déposer ou cliquer',upload_sub:'PDF, photos, plans (max 10 Mo)',btn_gen:'Générer mon devis — Gratuit',btn_gen_free:'Générer mon devis gratuitement',btn_batch:'Batch — 5 pays simultanés',pro_indiv:'Particulier',pro_pro:'Professionnel',pro_dev:'Promoteur',mat_eco:'Économique',mat_std:'Standard',mat_pre:'Premium',mat_lux:'Luxe',ph_country:'Rechercher un pays…',ph_region:'Ex: Île-de-France, California…',ph_city:'Ex: Paris, Dubai, Tokyo…',ph_desc:'Ex: rénovation cuisine 25m², villa avec piscine…',status_ready:'Sélectionnez votre pays et cliquez sur Générer',empty_title:'Devis mondial, tarifs locaux',empty_desc:'Prix adaptés à chaque pays, réponse dans la langue choisie.',stat_ready:'Prêt',stat_gen:'Génération…',stat_ok:'Devis généré',stat_err:'Erreur',modal_title:'Confirmer & Générer',modal_free_note:'Offre de lancement — Gratuit jusqu\'au 30 juin 2027',modal_email_lbl:'Votre email (pour recevoir le devis)',modal_name:'Nom sur la carte',modal_card:'Numéro de carte',modal_expiry:'Expiration',modal_secure_free:'Service gratuit jusqu\'au 30 juin 2027 · Aucune carte requise',cta_label:'Devis',cta_title:'Prêt à estimer<br>votre projet ?',cta_desc:'Remplissez le formulaire ci-contre avec les détails de votre projet et vos fichiers. Nous vous répondons rapidement.',form_fname:'Prénom',form_lname:'Nom',form_email:'Email',form_profile:'Vous êtes',form_project:'Décrivez votre projet',form_location_title:'📍 Localisation du projet',form_files:'Plans & Documents',form_submit:'Obtenir mon devis →',form_note:'Gratuit jusqu\'au 30 juin 2027. Aucun engagement.',form_success:'✓ Devis envoyé !',profile_indiv:'Particulier',profile_pro:'Professionnel',footer_desc:'Simplifiez vos devis avec confiance et efficacité. Service gratuit jusqu\'au 30 juin 2027 pour particuliers et professionnels du bâtiment.',footer_nav:'Navigation',fnav_home:'Accueil',fnav_contact:'Contact',footer_copy:'© 2025 Mondevis. Tous droits réservés.',title:'Mondevis — Devis Construction & Rénovation | Gratuit jusqu\'en 2027'},
+  en:{nav_services:'Services',nav_tool:'AI Tool',nav_reviews:'Reviews',nav_cta:'Contact',hero_badge:'Free until June 30, 2027',hero_title:'Your quotes,<br><em>simplified</em><br>to the extreme.',hero_sub:'Estimate your construction and renovation projects with confidence. Individuals or professionals — receive your precise quote in minutes.',hero_cta:'Generate my quote',hero_how:'How it works',stat_quotes:'Quotes delivered',stat_delay:'Average turnaround',stat_price:'Until June 2027',mq1:'Free until 2027',mq2:'Individuals & Professionals',mq3:'Fast Response',mq4:'31 Countries',mq5:'100% Reliable',mq6:'Claude AI',how_label:'Process',how_title:'How does it<br>work?',how_badge:'✓ Response within<br>a few minutes',step1_title:'Enter your country, region & city',step1_desc:'Select your location and describe your project. Attach plans or photos if available.',step2_title:'AI generates your quote',step2_desc:'Our AI analyses your brief and generates a precise quote adapted to local market prices in your region.',step3_title:'Manage your budget with confidence',step3_desc:'Plan your works with reliable estimates. No surprises, no hidden costs.',svc_label:'Our Services',svc_title:'Who is it for?',card1_tag:'Individuals',card1_title:'Estimate your personal projects',card1_desc:'Renovation, extension, new build — get a fast and reliable estimate to plan your works with peace of mind.',card2_tag:'Professionals',card2_title:'Save time on every project',card2_desc:'Send your plans and briefs. Receive precise, error-free quotes. Focus on what you do best.',test_label:'Testimonials',test_title:'What our clients<br>are saying',test1_text:'Mondevis helped me manage my renovation budget much better. The estimates are accurate and the service is very responsive.',test2_text:'Thanks to this platform, I saved a lot of time on my quotes and avoided costly mistakes. I recommend it to all construction professionals.',tool_title:'Generate your quote<br>in seconds',tool_desc:'Our AI adapts prices to the local market of your country and responds in your language.',tool_free:'Free until June 30, 2027',form_title:'Quote Configuration',lbl_country:'Project country',lbl_region:'Region / State / Province',lbl_city:'City',lbl_surface:'Surface area',lbl_mat:'Range',lbl_profile:'Profile',lbl_desc:'Project description',lbl_files:'Plans & Documents',upload_title:'Drag & drop or click to upload',upload_sub:'PDF, photos, plans (max 10 MB)',btn_gen:'Generate my quote — Free',btn_gen_free:'Generate my quote for free',btn_batch:'Batch — 5 countries at once',pro_indiv:'Individual',pro_pro:'Professional',pro_dev:'Developer',mat_eco:'Economy',mat_std:'Standard',mat_pre:'Premium',mat_lux:'Luxury',ph_country:'Search a country…',ph_region:'E.g: California, Île-de-France…',ph_city:'E.g: London, Dubai, Tokyo…',ph_desc:'E.g: 25m² kitchen renovation, villa with pool…',status_ready:'Select your country and click Generate',empty_title:'Global quotes, local pricing',empty_desc:'Prices adapted to each country, responses in your language.',stat_ready:'Ready',stat_gen:'Generating…',stat_ok:'Quote generated',stat_err:'Error',modal_title:'Confirm & Generate',modal_free_note:'Launch offer — Free until June 30, 2027',modal_email_lbl:'Your email (to receive the quote)',modal_name:'Name on card',modal_card:'Card number',modal_expiry:'Expiry',modal_secure_free:'Free service until June 30, 2027 · No card required',cta_label:'Quote',cta_title:'Ready to estimate<br>your project?',cta_desc:'Fill out the form with your project details and files. We respond quickly.',form_fname:'First name',form_lname:'Last name',form_email:'Email',form_profile:'You are',form_project:'Describe your project',form_location_title:'📍 Project location',form_files:'Plans & Documents',form_submit:'Get my quote →',form_note:'Free until June 30, 2027. No commitment.',form_success:'✓ Quote request sent!',profile_indiv:'Individual',profile_pro:'Professional',footer_desc:'Simplify your quotes with confidence. Free service until June 30, 2027 for individuals and construction professionals.',footer_nav:'Navigation',fnav_home:'Home',fnav_contact:'Contact',footer_copy:'© 2025 Mondevis. All rights reserved.',title:'Mondevis — Construction & Renovation Quotes | Free until 2027'},
+  es:{nav_services:'Servicios',nav_tool:'Herramienta IA',nav_reviews:'Opiniones',nav_cta:'Contact',hero_badge:'Gratis hasta el 30 de junio de 2027',hero_title:'Sus presupuestos,<br><em>simplificados</em><br>al extremo.',hero_sub:'Estime sus proyectos de construcción y renovación con confianza. Particulares o profesionales — reciba su presupuesto en minutos.',hero_cta:'Generar mi presupuesto',hero_how:'Cómo funciona',stat_quotes:'Presupuestos realizados',stat_delay:'Plazo medio',stat_price:'Hasta junio 2027',mq1:'Gratis hasta 2027',mq2:'Particulares & Profesionales',mq3:'Respuesta Rápida',mq4:'31 Países',mq5:'100% Fiable',mq6:'IA Claude',how_label:'Proceso',how_title:'¿Cómo<br>funciona?',how_badge:'✓ Respuesta en<br>pocos minutos',step1_title:'Introduzca su país, región y ciudad',step1_desc:'Seleccione su ubicación y describa su proyecto. Adjunte planos o fotos si dispone de ellos.',step2_title:'La IA genera su presupuesto',step2_desc:'Nuestra IA analiza su expediente y genera un presupuesto preciso adaptado a los precios locales.',step3_title:'Gestione su presupuesto con tranquilidad',step3_desc:'Anticipe sus obras con estimaciones fiables. Sin sorpresas, sin costes ocultos.',svc_label:'Nuestros Servicios',svc_title:'¿Para quién?',card1_tag:'Particulares',card1_title:'Estime sus proyectos personales',card1_desc:'Reforma, ampliación, construcción — obtenga una estimación rápida y fiable.',card2_tag:'Profesionales',card2_title:'Ahorre tiempo en sus obras',card2_desc:'Envíe sus planos y descripción. Reciba presupuestos precisos, sin errores.',test_label:'Testimonios',test_title:'Lo que dicen<br>nuestros clientes',test1_text:'Mondevis me ayudó a gestionar mejor mi presupuesto de renovación. Las estimaciones son precisas y el servicio muy reactivo.',test2_text:'Gracias a esta plataforma, ahorré tiempo valioso y evité errores costosos. Lo recomiendo a todos los profesionales.',tool_title:'Genere su presupuesto<br>en segundos',tool_desc:'Nuestra IA adapta los precios al mercado local de su país y responde en su idioma.',tool_free:'Gratis hasta el 30 de junio de 2027',form_title:'Configuración del presupuesto',lbl_country:'País del proyecto',lbl_region:'Región / Estado / Provincia',lbl_city:'Ciudad',lbl_surface:'Superficie',lbl_mat:'Gama',lbl_profile:'Perfil',lbl_desc:'Descripción del proyecto',lbl_files:'Planos & Documentos',upload_title:'Arrastra o haz clic',upload_sub:'PDF, fotos, planos (máx. 10 MB)',btn_gen:'Generar — Gratis',btn_gen_free:'Generar mi presupuesto gratis',btn_batch:'Lote — 5 países a la vez',pro_indiv:'Particular',pro_pro:'Profesional',pro_dev:'Promotor',mat_eco:'Económico',mat_std:'Estándar',mat_pre:'Premium',mat_lux:'Lujo',ph_country:'Buscar un país…',ph_region:'Ej: Andalucía, California…',ph_city:'Ej: Madrid, Barcelona…',ph_desc:'Ej: reforma cocina 25m², villa con piscina…',status_ready:'Seleccione su país y haga clic en Generar',empty_title:'Presupuestos globales, precios locales',empty_desc:'Precios adaptados a cada país, respuesta en tu idioma.',stat_ready:'Listo',stat_gen:'Generando…',stat_ok:'Presupuesto generado',stat_err:'Error',modal_title:'Confirmar & Generar',modal_free_note:'Oferta de lanzamiento — Gratis hasta el 30 de junio de 2027',modal_email_lbl:'Su email (para recibir el presupuesto)',modal_name:'Nombre en la tarjeta',modal_card:'Número de tarjeta',modal_expiry:'Caducidad',modal_secure_free:'Servicio gratuito hasta el 30 de junio de 2027 · Sin tarjeta requerida',cta_label:'Presupuesto',cta_title:'¿Listo para estimar<br>su proyecto?',cta_desc:'Complete el formulario con los detalles de su proyecto y sus archivos. Le respondemos rápidamente.',form_fname:'Nombre',form_lname:'Apellido',form_email:'Email',form_profile:'Usted es',form_project:'Describa su proyecto',form_location_title:'📍 Ubicación del proyecto',form_files:'Planos & Documentos',form_submit:'Obtener mi presupuesto →',form_note:'Gratis hasta el 30 de junio de 2027. Sin compromiso.',form_success:'✓ ¡Solicitud enviada!',profile_indiv:'Particular',profile_pro:'Profesional',footer_desc:'Simplifique sus presupuestos con confianza. Servicio gratuito hasta junio de 2027.',footer_nav:'Navegación',fnav_home:'Inicio',fnav_contact:'Contacto',footer_copy:'© 2025 Mondevis. Todos los derechos reservados.',title:'Mondevis — Presupuestos Construcción & Reforma | Gratis hasta 2027'},
+  ar:{nav_services:'الخدمات',nav_tool:'أداة الذكاء الاصطناعي',nav_reviews:'آراء',nav_cta:'Contact',hero_badge:'مجاني حتى 30 يونيو 2027',hero_title:'عروض أسعاركم،<br><em>مبسّطة</em><br>إلى أقصى حد.',hero_sub:'احصلوا على تقدير دقيق لمشاريع البناء والتجديد. أفراد أو محترفون — استلموا عرض أسعاركم في دقائق.',hero_cta:'إنشاء عرض أسعار',hero_how:'كيف يعمل',stat_quotes:'عروض منجزة',stat_delay:'متوسط الوقت',stat_price:'حتى يونيو 2027',mq1:'مجاني حتى 2027',mq2:'أفراد ومحترفون',mq3:'رد سريع',mq4:'31 دولة',mq5:'100% موثوق',mq6:'ذكاء اصطناعي',how_label:'العملية',how_title:'كيف<br>يعمل؟',how_badge:'✓ رد في دقائق',step1_title:'أدخل بلدك ومنطقتك ومدينتك',step1_desc:'حدد موقعك وصف مشروعك. أرفق المخططات أو الصور إن توفرت.',step2_title:'الذكاء الاصطناعي يُنشئ عرضك',step2_desc:'يحلل الذكاء الاصطناعي ملفك ويُنشئ عرض أسعار دقيقاً وفقاً لأسعار السوق المحلية.',step3_title:'أدر ميزانيتك بثقة',step3_desc:'توقع تكاليف أعمالك بتقديرات موثوقة. لا مفاجآت، لا تكاليف خفية.',svc_label:'خدماتنا',svc_title:'لمن هذه الخدمة؟',card1_tag:'الأفراد',card1_title:'قدّر مشاريعك الشخصية',card1_desc:'تجديد، توسعة، بناء — احصل على تقدير سريع وموثوق لأعمالك.',card2_tag:'المحترفون',card2_title:'وفّر وقتك في مشاريعك',card2_desc:'أرسل مخططاتك ووصفك. استلم عروض أسعار دقيقة وبدون أخطاء.',test_label:'الشهادات',test_title:'ما يقوله<br>عملاؤنا',test1_text:'ساعدني Mondevis على إدارة ميزانية التجديد بشكل أفضل. التقديرات دقيقة والخدمة سريعة الاستجابة.',test2_text:'بفضل هذه المنصة وفرت وقتاً ثميناً وتجنبت أخطاء مكلفة. أوصي به لجميع المحترفين.',tool_title:'أنشئ عرضك<br>في ثوانٍ',tool_desc:'يُكيّف الذكاء الاصطناعي الأسعار وفق السوق المحلية لبلدك ويرد بلغتك.',tool_free:'مجاني حتى 30 يونيو 2027',form_title:'إعداد عرض الأسعار',lbl_country:'بلد المشروع',lbl_region:'المنطقة / الولاية / المحافظة',lbl_city:'المدينة',lbl_surface:'المساحة',lbl_mat:'الجودة',lbl_profile:'الملف الشخصي',lbl_desc:'وصف المشروع',lbl_files:'المخططات والوثائق',upload_title:'اسحب أو انقر للرفع',upload_sub:'PDF، صور، مخططات (بحد أقصى 10 ميجابايت)',btn_gen:'إنشاء — مجاني',btn_gen_free:'إنشاء عرض مجاناً',btn_batch:'دفعة — 5 دول في وقت واحد',pro_indiv:'فرد',pro_pro:'محترف',pro_dev:'مطور',mat_eco:'اقتصادي',mat_std:'قياسي',mat_pre:'مميز',mat_lux:'فاخر',ph_country:'ابحث عن دولة…',ph_region:'مثال: الرياض، كاليفورنيا…',ph_city:'مثال: دبي، الرياض، القاهرة…',ph_desc:'مثال: تجديد مطبخ 25م²، فيلا مع مسبح…',status_ready:'حدد بلدك وانقر على إنشاء',empty_title:'عروض أسعار عالمية بأسعار محلية',empty_desc:'أسعار مكيّفة لكل دولة، رد بلغتك.',stat_ready:'جاهز',stat_gen:'جاري الإنشاء…',stat_ok:'تم إنشاء العرض',stat_err:'خطأ',modal_title:'تأكيد وإنشاء',modal_free_note:'عرض الإطلاق — مجاني حتى 30 يونيو 2027',modal_email_lbl:'بريدك الإلكتروني (لاستلام العرض)',modal_name:'الاسم على البطاقة',modal_card:'رقم البطاقة',modal_expiry:'تاريخ الانتهاء',modal_secure_free:'خدمة مجانية حتى 30 يونيو 2027 · لا بطاقة مطلوبة',cta_label:'عرض أسعار',cta_title:'هل أنت مستعد لتقدير<br>مشروعك؟',cta_desc:'املأ النموذج بتفاصيل مشروعك وملفاتك. نرد عليك بسرعة.',form_fname:'الاسم الأول',form_lname:'اسم العائلة',form_email:'البريد الإلكتروني',form_profile:'أنت',form_project:'صف مشروعك',form_location_title:'📍 موقع المشروع',form_files:'المخططات والوثائق',form_submit:'الحصول على عرضي →',form_note:'مجاني حتى 30 يونيو 2027. بدون التزام.',form_success:'✓ تم إرسال الطلب!',profile_indiv:'فرد',profile_pro:'محترف',footer_desc:'بسّط عروض أسعارك بثقة. خدمة مجانية حتى يونيو 2027.',footer_nav:'التنقل',fnav_home:'الرئيسية',fnav_contact:'اتصل بنا',footer_copy:'© 2025 Mondevis. جميع الحقوق محفوظة.',title:'Mondevis — عروض أسعار البناء | مجاني حتى 2027'},
+  pt:{nav_services:'Serviços',nav_tool:'Ferramenta IA',nav_reviews:'Avaliações',nav_cta:'Contact',hero_badge:'Grátis até 30 de junho de 2027',hero_title:'Os seus orçamentos,<br><em>simplificados</em><br>ao máximo.',hero_sub:'Estime os seus projetos de construção e renovação com confiança. Particulares ou profissionais — receba o seu orçamento em minutos.',hero_cta:'Gerar o meu orçamento',hero_how:'Como funciona',stat_quotes:'Orçamentos realizados',stat_delay:'Prazo médio',stat_price:'Até junho 2027',mq1:'Grátis até 2027',mq2:'Particulares & Profissionais',mq3:'Resposta Rápida',mq4:'31 Países',mq5:'100% Fiável',mq6:'IA Claude',how_label:'Processo',how_title:'Como<br>funciona?',how_badge:'✓ Resposta em<br>poucos minutos',step1_title:'Introduza o seu país, região e cidade',step1_desc:'Selecione a sua localização e descreva o seu projeto. Anexe plantas ou fotos se disponível.',step2_title:'A IA gera o seu orçamento',step2_desc:'A nossa IA analisa o seu dossier e gera um orçamento preciso adaptado aos preços locais.',step3_title:'Gira o seu orçamento com tranquilidade',step3_desc:'Antecipe as suas obras com estimativas fiáveis. Sem surpresas, sem custos ocultos.',svc_label:'Os Nossos Serviços',svc_title:'Para quem?',card1_tag:'Particulares',card1_title:'Estime os seus projetos pessoais',card1_desc:'Renovação, ampliação, construção — obtenha uma estimativa rápida e fiável.',card2_tag:'Profissionais',card2_title:'Poupe tempo nas suas obras',card2_desc:'Envie as suas plantas e descrição. Receba orçamentos precisos, sem erros.',test_label:'Testemunhos',test_title:'O que dizem<br>os nossos clientes',test1_text:'O Mondevis ajudou-me a gerir melhor o orçamento da minha renovação. As estimativas são precisas.',test2_text:'Graças a esta plataforma, poupei tempo precioso e evitei erros dispendiosos. Recomendo a todos.',tool_title:'Gere o seu orçamento<br>em segundos',tool_desc:'A nossa IA adapta os preços ao mercado local do seu país e responde na sua língua.',tool_free:'Grátis até 30 de junho de 2027',form_title:'Configuração do orçamento',lbl_country:'País do projeto',lbl_region:'Região / Estado / Província',lbl_city:'Cidade',lbl_surface:'Área',lbl_mat:'Gama',lbl_profile:'Perfil',lbl_desc:'Descrição do projeto',lbl_files:'Plantas & Documentos',upload_title:'Arraste ou clique',upload_sub:'PDF, fotos, plantas (máx. 10 MB)',btn_gen:'Gerar — Grátis',btn_gen_free:'Gerar o meu orçamento gratuitamente',btn_batch:'Lote — 5 países em simultâneo',pro_indiv:'Particular',pro_pro:'Profissional',pro_dev:'Incorporador',mat_eco:'Económico',mat_std:'Padrão',mat_pre:'Premium',mat_lux:'Luxo',ph_country:'Pesquisar um país…',ph_region:'Ex: São Paulo, Lisboa…',ph_city:'Ex: Lisboa, São Paulo…',ph_desc:'Ex: renovação cozinha 25m², moradia com piscina…',status_ready:'Selecione o seu país e clique em Gerar',empty_title:'Orçamentos globais, preços locais',empty_desc:'Preços adaptados a cada país, resposta no seu idioma.',stat_ready:'Pronto',stat_gen:'Gerando…',stat_ok:'Orçamento gerado',stat_err:'Erro',modal_title:'Confirmar & Gerar',modal_free_note:'Oferta de lançamento — Grátis até 30 de junho de 2027',modal_email_lbl:'O seu email (para receber o orçamento)',modal_name:'Nome no cartão',modal_card:'Número do cartão',modal_expiry:'Validade',modal_secure_free:'Serviço gratuito até 30 de junho de 2027 · Sem cartão necessário',cta_label:'Orçamento',cta_title:'Pronto para estimar<br>o seu projeto?',cta_desc:'Preencha o formulário com os detalhes do seu projeto e os seus ficheiros. Respondemos rapidamente.',form_fname:'Nome',form_lname:'Apelido',form_email:'Email',form_profile:'Você é',form_project:'Descreva o seu projeto',form_location_title:'📍 Localização do projeto',form_files:'Plantas & Documentos',form_submit:'Obter o meu orçamento →',form_note:'Grátis até 30 de junho de 2027. Sem compromisso.',form_success:'✓ Pedido enviado!',profile_indiv:'Particular',profile_pro:'Profissional',footer_desc:'Simplifique os seus orçamentos com confiança. Serviço gratuito até junho de 2027.',footer_nav:'Navegação',fnav_home:'Início',fnav_contact:'Contacto',footer_copy:'© 2025 Mondevis. Todos os direitos reservados.',title:'Mondevis — Orçamentos Construção | Grátis até 2027'},
+  de:{nav_services:'Leistungen',nav_tool:'KI-Tool',nav_reviews:'Bewertungen',nav_cta:'Contact',hero_badge:'Kostenlos bis 30. Juni 2027',hero_title:'Ihre Angebote,<br><em>vereinfacht</em><br>bis aufs Äußerste.',hero_sub:'Schätzen Sie Ihre Bau- und Renovierungsprojekte mit Zuversicht. Erhalten Sie Ihr genaues Angebot in Minuten.',hero_cta:'Mein Angebot erstellen',hero_how:'So funktioniert\'s',stat_quotes:'Angebote erstellt',stat_delay:'Durchschnittliche Zeit',stat_price:'Bis Juni 2027',mq1:'Kostenlos bis 2027',mq2:'Privat & Gewerblich',mq3:'Schnelle Antwort',mq4:'31 Länder',mq5:'100% Zuverlässig',mq6:'Claude KI',how_label:'Prozess',how_title:'Wie funktioniert<br>es?',how_badge:'✓ Antwort in<br>wenigen Minuten',step1_title:'Land, Region & Stadt eingeben',step1_desc:'Wählen Sie Ihren Standort und beschreiben Sie Ihr Projekt. Fügen Sie Pläne oder Fotos hinzu.',step2_title:'KI erstellt Ihr Angebot',step2_desc:'Unsere KI analysiert Ihre Unterlagen und erstellt ein präzises Angebot angepasst an lokale Marktpreise.',step3_title:'Budget sicher verwalten',step3_desc:'Planen Sie Ihre Bauarbeiten mit zuverlässigen Schätzungen. Keine versteckten Kosten.',svc_label:'Unsere Leistungen',svc_title:'Für wen?',card1_tag:'Privatpersonen',card1_title:'Eigene Projekte schätzen',card1_desc:'Renovierung, Erweiterung, Neubau — schnelle und zuverlässige Kostenschätzung.',card2_tag:'Fachleute',card2_title:'Zeit bei Projekten sparen',card2_desc:'Pläne und Beschreibungen senden. Präzise, fehlerfreie Angebote erhalten.',test_label:'Bewertungen',test_title:'Was unsere Kunden<br>sagen',test1_text:'Mondevis hat mir geholfen, mein Renovierungsbudget besser zu verwalten. Die Schätzungen sind sehr präzise.',test2_text:'Dank dieser Plattform habe ich wertvolle Zeit gespart. Ich empfehle es allen Fachleuten.',tool_title:'Angebot in Sekunden<br>erstellen',tool_desc:'Unsere KI passt die Preise an den lokalen Markt Ihres Landes an und antwortet in Ihrer Sprache.',tool_free:'Kostenlos bis zum 30. Juni 2027',form_title:'Angebotskonfiguration',lbl_country:'Projektland',lbl_region:'Region / Bundesland / Provinz',lbl_city:'Stadt',lbl_surface:'Fläche',lbl_mat:'Klasse',lbl_profile:'Profil',lbl_desc:'Projektbeschreibung',lbl_files:'Pläne & Dokumente',upload_title:'Ziehen oder klicken',upload_sub:'PDF, Fotos, Pläne (max. 10 MB)',btn_gen:'Erstellen — Kostenlos',btn_gen_free:'Mein Angebot kostenlos erstellen',btn_batch:'Batch — 5 Länder gleichzeitig',pro_indiv:'Privat',pro_pro:'Gewerbe',pro_dev:'Bauträger',mat_eco:'Günstig',mat_std:'Standard',mat_pre:'Premium',mat_lux:'Luxus',ph_country:'Land suchen…',ph_region:'z.B: Bayern, Île-de-France…',ph_city:'z.B: Berlin, München…',ph_desc:'z.B: Küchenrenovierung 25m², Villa mit Pool…',status_ready:'Land auswählen und auf Erstellen klicken',empty_title:'Weltweite Angebote, lokale Preise',empty_desc:'Preise für jedes Land, Antwort in Ihrer Sprache.',stat_ready:'Bereit',stat_gen:'Generiere…',stat_ok:'Angebot erstellt',stat_err:'Fehler',modal_title:'Bestätigen & Erstellen',modal_free_note:'Einführungsangebot — Kostenlos bis 30. Juni 2027',modal_email_lbl:'Ihre E-Mail (um das Angebot zu erhalten)',modal_name:'Name auf der Karte',modal_card:'Kartennummer',modal_expiry:'Ablaufdatum',modal_secure_free:'Kostenloser Service bis 30. Juni 2027 · Keine Karte erforderlich',cta_label:'Angebot',cta_title:'Bereit, Ihr Projekt<br>zu schätzen?',cta_desc:'Füllen Sie das Formular mit Ihren Projektdetails und Dateien aus. Wir antworten schnell.',form_fname:'Vorname',form_lname:'Nachname',form_email:'E-Mail',form_profile:'Sie sind',form_project:'Projekt beschreiben',form_location_title:'📍 Projektstandort',form_files:'Pläne & Dokumente',form_submit:'Mein Angebot erhalten →',form_note:'Kostenlos bis 30. Juni 2027. Keine Bindung.',form_success:'✓ Anfrage gesendet!',profile_indiv:'Privatperson',profile_pro:'Fachmann',footer_desc:'Vereinfachen Sie Ihre Angebote. Kostenloser Service bis Juni 2027.',footer_nav:'Navigation',fnav_home:'Startseite',fnav_contact:'Kontakt',footer_copy:'© 2025 Mondevis. Alle Rechte vorbehalten.',title:'Mondevis — Bau & Renovierungsangebote | Kostenlos bis 2027'},
+  it:{nav_services:'Servizi',nav_tool:'Strumento IA',nav_reviews:'Recensioni',nav_cta:'Contact',hero_badge:'Gratuito fino al 30 giugno 2027',hero_title:'I vostri preventivi,<br><em>semplificati</em><br>all\'estremo.',hero_sub:'Stimate i vostri progetti di costruzione e ristrutturazione con fiducia. Ricevete il vostro preventivo in pochi minuti.',hero_cta:'Generare il mio preventivo',hero_how:'Come funziona',stat_quotes:'Preventivi realizzati',stat_delay:'Tempo medio',stat_price:'Fino a giugno 2027',mq1:'Gratuito fino al 2027',mq2:'Privati & Professionisti',mq3:'Risposta Rapida',mq4:'31 Paesi',mq5:'100% Affidabile',mq6:'IA Claude',how_label:'Processo',how_title:'Come<br>funziona?',how_badge:'✓ Risposta in<br>pochi minuti',step1_title:'Inserite il vostro paese, regione e città',step1_desc:'Selezionate la vostra posizione e descrivete il progetto. Allegate planimetrie o foto se disponibili.',step2_title:'L\'IA genera il vostro preventivo',step2_desc:'La nostra IA analizza il vostro dossier e genera un preventivo preciso adattato ai prezzi locali.',step3_title:'Gestite il vostro budget con serenità',step3_desc:'Anticipate i vostri lavori con stime affidabili. Nessuna sorpresa, nessun costo nascosto.',svc_label:'I Nostri Servizi',svc_title:'Per chi?',card1_tag:'Privati',card1_title:'Stimate i vostri progetti personali',card1_desc:'Ristrutturazione, ampliamento, costruzione — ottenete una stima rapida e affidabile.',card2_tag:'Professionisti',card2_title:'Risparmiate tempo sui cantieri',card2_desc:'Inviate i vostri piani e la descrizione. Ricevete preventivi precisi, senza errori.',test_label:'Testimonianze',test_title:'Cosa dicono<br>i nostri clienti',test1_text:'Mondevis mi ha aiutato a gestire meglio il budget per la mia ristrutturazione. Le stime sono precise.',test2_text:'Grazie a questa piattaforma ho risparmiato tempo prezioso. Lo consiglio a tutti i professionisti.',tool_title:'Generate il vostro preventivo<br>in secondi',tool_desc:'La nostra IA adatta i prezzi al mercato locale del vostro paese e risponde nella vostra lingua.',tool_free:'Gratuito fino al 30 giugno 2027',form_title:'Configurazione preventivo',lbl_country:'Paese del progetto',lbl_region:'Regione / Stato / Provincia',lbl_city:'Città',lbl_surface:'Superficie',lbl_mat:'Gamma',lbl_profile:'Profilo',lbl_desc:'Descrizione progetto',lbl_files:'Planimetrie & Documenti',upload_title:'Trascina o clicca',upload_sub:'PDF, foto, planimetrie (max 10 MB)',btn_gen:'Genera — Gratuito',btn_gen_free:'Generare il mio preventivo gratuitamente',btn_batch:'Batch — 5 paesi contemporaneamente',pro_indiv:'Privato',pro_pro:'Professionista',pro_dev:'Costruttore',mat_eco:'Economico',mat_std:'Standard',mat_pre:'Premium',mat_lux:'Lusso',ph_country:'Cerca un paese…',ph_region:'Es: Lombardia, California…',ph_city:'Es: Roma, Milano…',ph_desc:'Es: ristrutturazione cucina 25m², villa con piscina…',status_ready:'Selezionate il vostro paese e cliccate Genera',empty_title:'Preventivi globali, prezzi locali',empty_desc:'Prezzi adattati ad ogni paese, risposta nella vostra lingua.',stat_ready:'Pronto',stat_gen:'Generazione…',stat_ok:'Preventivo generato',stat_err:'Errore',modal_title:'Conferma & Genera',modal_free_note:'Offerta di lancio — Gratuito fino al 30 giugno 2027',modal_email_lbl:'La vostra email (per ricevere il preventivo)',modal_name:'Nome sulla carta',modal_card:'Numero di carta',modal_expiry:'Scadenza',modal_secure_free:'Servizio gratuito fino al 30 giugno 2027 · Nessuna carta necessaria',cta_label:'Preventivo',cta_title:'Pronti a stimare<br>il vostro progetto?',cta_desc:'Compilate il modulo con i dettagli del progetto e i file. Vi rispondiamo rapidamente.',form_fname:'Nome',form_lname:'Cognome',form_email:'Email',form_profile:'Voi siete',form_project:'Descrivete il progetto',form_location_title:'📍 Localizzazione del progetto',form_files:'Planimetrie & Documenti',form_submit:'Ottenere il mio preventivo →',form_note:'Gratuito fino al 30 giugno 2027. Nessun impegno.',form_success:'✓ Richiesta inviata!',profile_indiv:'Privato',profile_pro:'Professionista',footer_desc:'Semplifica i tuoi preventivi con fiducia. Servizio gratuito fino a giugno 2027.',footer_nav:'Navigazione',fnav_home:'Home',fnav_contact:'Contatto',footer_copy:'© 2025 Mondevis. Tutti i diritti riservati.',title:'Mondevis — Preventivi Costruzione | Gratuito fino al 2027'},
+  zh:{nav_services:'服务',nav_tool:'AI工具',nav_reviews:'评价',nav_cta:'Contact',hero_badge:'免费至2027年6月30日',hero_title:'您的报价，<br><em>极致简化</em>。',hero_sub:'自信地估算您的建筑和装修项目。个人或专业人士 — 在几分钟内收到精确报价。',hero_cta:'生成我的报价',hero_how:'如何运作',stat_quotes:'已完成报价',stat_delay:'平均响应时间',stat_price:'至2027年6月',mq1:'2027年前免费',mq2:'个人与专业人士',mq3:'快速响应',mq4:'31个国家',mq5:'100%可靠',mq6:'Claude AI',how_label:'流程',how_title:'如何<br>运作？',how_badge:'✓ 几分钟内响应',step1_title:'输入您的国家、地区和城市',step1_desc:'选择您的位置并描述您的项目。如有图纸或照片，请一并附上。',step2_title:'AI生成您的报价',step2_desc:'我们的AI分析您的项目文件，根据当地市场价格生成精确报价。',step3_title:'从容管理预算',step3_desc:'用可靠的估算规划您的工程。无意外，无隐性费用。',svc_label:'我们的服务',svc_title:'适合谁？',card1_tag:'个人',card1_title:'估算您的个人项目',card1_desc:'装修、扩建、新建 — 快速获取可靠估算。',card2_tag:'专业人士',card2_title:'节省项目时间',card2_desc:'发送图纸和说明，获得精确无误的报价。',test_label:'客户评价',test_title:'客户们<br>怎么说',test1_text:'Mondevis帮助我更好地管理装修预算，估算精确，服务响应快速。',test2_text:'得益于这个平台，我节省了宝贵的时间，避免了昂贵的错误，推荐给所有专业人士。',tool_title:'几秒内<br>生成您的报价',tool_desc:'我们的AI根据您所在国家的本地市场调整价格，并以您的语言回应。',tool_free:'免费至2027年6月30日',form_title:'报价配置',lbl_country:'项目国家',lbl_region:'省/州/地区',lbl_city:'城市',lbl_surface:'面积',lbl_mat:'材料档次',lbl_profile:'客户类型',lbl_desc:'项目描述',lbl_files:'图纸与文件',upload_title:'拖拽或点击上传',upload_sub:'PDF、照片、图纸（每个文件最大10MB）',btn_gen:'生成 — 免费',btn_gen_free:'免费生成我的报价',btn_batch:'批量 — 5个国家同时',pro_indiv:'个人',pro_pro:'专业',pro_dev:'开发商',mat_eco:'经济',mat_std:'标准',mat_pre:'高档',mat_lux:'豪华',ph_country:'搜索国家…',ph_region:'如：广东省、加利福尼亚…',ph_city:'如：北京、上海…',ph_desc:'如：25平米厨房翻新、带泳池别墅…',status_ready:'选择您的国家并点击生成',empty_title:'全球报价，本地定价',empty_desc:'价格适应每个国家，以您的语言回复。',stat_ready:'就绪',stat_gen:'生成中…',stat_ok:'报价已生成',stat_err:'错误',modal_title:'确认并生成',modal_free_note:'推出优惠 — 免费至2027年6月30日',modal_email_lbl:'您的邮箱（用于接收报价）',modal_name:'持卡人姓名',modal_card:'卡号',modal_expiry:'有效期',modal_secure_free:'免费服务至2027年6月30日 · 无需银行卡',cta_label:'报价',cta_title:'准备好估算<br>您的项目了吗？',cta_desc:'填写包含项目详情和文件的表格，我们将快速回复您。',form_fname:'名字',form_lname:'姓氏',form_email:'电子邮件',form_profile:'您是',form_project:'描述您的项目',form_location_title:'📍 项目位置',form_files:'图纸与文件',form_submit:'获取我的报价 →',form_note:'免费至2027年6月30日。无承诺。',form_success:'✓ 请求已发送！',profile_indiv:'个人',profile_pro:'专业人士',footer_desc:'自信高效地简化您的报价。免费服务至2027年6月。',footer_nav:'导航',fnav_home:'首页',fnav_contact:'联系我们',footer_copy:'© 2025 Mondevis。保留所有权利。',title:'Mondevis — 在线建筑报价 | 免费至2027年'},
+  ja:{nav_services:'サービス',nav_tool:'AIツール',nav_reviews:'お客様の声',nav_cta:'Contact',hero_badge:'2027年6月30日まで無料',hero_title:'お見積もりを、<br><em>極限まで</em><br>シンプルに。',hero_sub:'建設・リノベーションプロジェクトを安心して見積もれます。個人・法人問わず、数分以内に正確な見積もりをお届けします。',hero_cta:'見積もりを生成',hero_how:'ご利用方法',stat_quotes:'完了した見積もり',stat_delay:'平均対応時間',stat_price:'2027年6月まで',mq1:'2027年まで無料',mq2:'個人・法人対応',mq3:'迅速対応',mq4:'31カ国',mq5:'100%信頼',mq6:'Claude AI',how_label:'ご利用の流れ',how_title:'どのように<br>機能しますか？',how_badge:'✓ 数分以内に回答',step1_title:'国、地域、都市を入力',step1_desc:'場所を選択してプロジェクトを説明してください。図面や写真があれば添付してください。',step2_title:'AIが見積もりを生成',step2_desc:'AIがご提出書類を分析し、地域の市場価格に適応した正確な見積もりを生成します。',step3_title:'安心して予算を管理',step3_desc:'信頼性の高い見積もりで工事を事前に計画。予想外の費用はありません。',svc_label:'サービス内容',svc_title:'対象者',card1_tag:'個人のお客様',card1_title:'個人プロジェクトの見積もり',card1_desc:'リノベーション、増築、新築 — 迅速で信頼性の高い見積もりを取得。',card2_tag:'プロのお客様',card2_title:'現場の時間を節約',card2_desc:'図面と仕様書を送付。正確でミスのない見積もりを受け取り。',test_label:'お客様の声',test_title:'お客様の<br>ご意見',test1_text:'Mondevisはリノベーション予算の管理に大変役立ちました。見積もりが正確で対応も迅速です。',test2_text:'このプラットフォームのおかげで時間を節約しコストのかかるミスを避けられました。',tool_title:'見積もりを<br>数秒で生成',tool_desc:'AIがご希望の国の地域市場価格に対応し、ご希望の言語でお答えします。',tool_free:'2027年6月30日まで無料',form_title:'見積もり設定',lbl_country:'プロジェクトの国',lbl_region:'地域 / 都道府県 / 州',lbl_city:'都市',lbl_surface:'面積',lbl_mat:'材料グレード',lbl_profile:'プロフィール',lbl_desc:'プロジェクトの詳細',lbl_files:'図面 & 書類',upload_title:'ドラッグ＆ドロップまたはクリック',upload_sub:'PDF、写真、図面（1ファイル最大10MB）',btn_gen:'生成 — 無料',btn_gen_free:'無料で見積もりを生成',btn_batch:'バッチ — 5カ国同時',pro_indiv:'個人',pro_pro:'法人',pro_dev:'デベロッパー',mat_eco:'エコノミー',mat_std:'スタンダード',mat_pre:'プレミアム',mat_lux:'ラグジュアリー',ph_country:'国を検索…',ph_region:'例：東京都、カリフォルニア…',ph_city:'例：東京、大阪…',ph_desc:'例：キッチン25㎡リノベーション、プール付き邸宅…',status_ready:'国を選択して生成をクリック',empty_title:'グローバル見積もり、ローカル価格',empty_desc:'各国の価格に対応、ご希望の言語で回答。',stat_ready:'準備完了',stat_gen:'生成中…',stat_ok:'見積もり完了',stat_err:'エラー',modal_title:'確認 & 生成',modal_free_note:'ローンチオファー — 2027年6月30日まで無料',modal_email_lbl:'メールアドレス（見積もり受取用）',modal_name:'カード名義人',modal_card:'カード番号',modal_expiry:'有効期限',modal_secure_free:'2027年6月30日まで無料サービス · カード不要',cta_label:'見積もり',cta_title:'プロジェクトを<br>見積もる準備はできましたか？',cta_desc:'プロジェクトの詳細とファイルをフォームに記入してください。迅速にご回答します。',form_fname:'名前',form_lname:'苗字',form_email:'メールアドレス',form_profile:'あなたは',form_project:'プロジェクトの詳細',form_location_title:'📍 プロジェクトの場所',form_files:'図面と書類',form_submit:'見積もりを取得 →',form_note:'2027年6月30日まで無料。契約不要。',form_success:'✓ リクエストを送信しました！',profile_indiv:'個人',profile_pro:'法人',footer_desc:'自信を持って効率的に見積もりを簡素化。2027年6月まで無料サービス。',footer_nav:'ナビゲーション',fnav_home:'ホーム',fnav_contact:'お問い合わせ',footer_copy:'© 2025 Mondevis。全著作権所有。',title:'Mondevis — 建設見積もり | 2027年まで無料'},
+  ru:{nav_services:'Услуги',nav_tool:'ИИ инструмент',nav_reviews:'Отзывы',nav_cta:'Contact',hero_badge:'Бесплатно до 30 июня 2027',hero_title:'Ваши сметы,<br><em>упрощены</em><br>до предела.',hero_sub:'Оценивайте свои строительные и ремонтные проекты с уверенностью. Получите точную смету за несколько минут.',hero_cta:'Создать смету',hero_how:'Как это работает',stat_quotes:'Смет выполнено',stat_delay:'Среднее время',stat_price:'До июня 2027',mq1:'Бесплатно до 2027',mq2:'Физлица и профессионалы',mq3:'Быстрый ответ',mq4:'31 страна',mq5:'100% надёжно',mq6:'Claude ИИ',how_label:'Процесс',how_title:'Как это<br>работает?',how_badge:'✓ Ответ за<br>несколько минут',step1_title:'Введите страну, регион и город',step1_desc:'Выберите местоположение и опишите проект. Прикрепите планы или фото если есть.',step2_title:'ИИ создаёт вашу смету',step2_desc:'Наш ИИ анализирует ваши документы и создаёт точную смету, адаптированную к местным ценам.',step3_title:'Управляйте бюджетом спокойно',step3_desc:'Планируйте работы с надёжными оценками. Никаких сюрпризов, никаких скрытых расходов.',svc_label:'Наши услуги',svc_title:'Для кого?',card1_tag:'Физлица',card1_title:'Оцените ваши личные проекты',card1_desc:'Ремонт, расширение, новое строительство — получите быструю и надёжную оценку.',card2_tag:'Профессионалы',card2_title:'Экономьте время на объектах',card2_desc:'Отправьте планы и описание. Получите точные сметы без ошибок.',test_label:'Отзывы',test_title:'Что говорят<br>наши клиенты',test1_text:'Mondevis помог мне лучше управлять бюджетом ремонта. Оценки точные, сервис очень оперативный.',test2_text:'Благодаря этой платформе я сэкономил ценное время и избежал дорогостоящих ошибок.',tool_title:'Создайте смету<br>за секунды',tool_desc:'Наш ИИ адаптирует цены к местному рынку вашей страны и отвечает на вашем языке.',tool_free:'Бесплатно до 30 июня 2027',form_title:'Настройка сметы',lbl_country:'Страна проекта',lbl_region:'Регион / Область / Провинция',lbl_city:'Город',lbl_surface:'Площадь',lbl_mat:'Класс',lbl_profile:'Профиль',lbl_desc:'Описание проекта',lbl_files:'Чертежи & Документы',upload_title:'Перетащите или нажмите',upload_sub:'PDF, фото, планы (макс. 10 МБ)',btn_gen:'Создать — Бесплатно',btn_gen_free:'Создать смету бесплатно',btn_batch:'Пакет — 5 стран одновременно',pro_indiv:'Частное лицо',pro_pro:'Профессионал',pro_dev:'Застройщик',mat_eco:'Эконом',mat_std:'Стандарт',mat_pre:'Премиум',mat_lux:'Люкс',ph_country:'Поиск страны…',ph_region:'Напр: Московская обл., Калифорния…',ph_city:'Напр: Москва, Санкт-Петербург…',ph_desc:'Напр: ремонт кухни 25м², вилла с бассейном…',status_ready:'Выберите страну и нажмите Создать',empty_title:'Глобальные сметы, местные цены',empty_desc:'Цены адаптированы для каждой страны, ответ на вашем языке.',stat_ready:'Готово',stat_gen:'Генерация…',stat_ok:'Смета создана',stat_err:'Ошибка',modal_title:'Подтвердить & Создать',modal_free_note:'Акция запуска — Бесплатно до 30 июня 2027',modal_email_lbl:'Ваш email (для получения сметы)',modal_name:'Имя на карте',modal_card:'Номер карты',modal_expiry:'Срок действия',modal_secure_free:'Бесплатный сервис до 30 июня 2027 · Карта не нужна',cta_label:'Смета',cta_title:'Готовы оценить<br>ваш проект?',cta_desc:'Заполните форму с деталями проекта и файлами. Мы отвечаем быстро.',form_fname:'Имя',form_lname:'Фамилия',form_email:'Email',form_profile:'Вы являетесь',form_project:'Опишите проект',form_location_title:'📍 Местоположение проекта',form_files:'Чертежи & Документы',form_submit:'Получить мою смету →',form_note:'Бесплатно до 30 июня 2027. Без обязательств.',form_success:'✓ Запрос отправлен!',profile_indiv:'Частное лицо',profile_pro:'Профессионал',footer_desc:'Упрощайте сметы с уверенностью. Бесплатный сервис до июня 2027.',footer_nav:'Навигация',fnav_home:'Главная',fnav_contact:'Контакты',footer_copy:'© 2025 Mondevis. Все права защищены.',title:'Mondevis — Строительные сметы | Бесплатно до 2027'},
+};
+
+let currentLang='fr';
+let selectedCountry=null;
+let uploadedFiles=[];
+let ctaUploadedFiles=[];
+let quoteN=0;
+
+// ── COUNTRIES ──
+const COUNTRIES=[
+  {name:'France',flag:'🇫🇷',code:'FR',currency:'EUR',symbol:'€',lang:'fr',laborMult:1.0},
+  {name:'Germany',flag:'🇩🇪',code:'DE',currency:'EUR',symbol:'€',lang:'de',laborMult:1.15},
+  {name:'United Kingdom',flag:'🇬🇧',code:'GB',currency:'GBP',symbol:'£',lang:'en',laborMult:1.3},
+  {name:'United States',flag:'🇺🇸',code:'US',currency:'USD',symbol:'$',lang:'en',laborMult:1.5},
+  {name:'Spain',flag:'🇪🇸',code:'ES',currency:'EUR',symbol:'€',lang:'es',laborMult:0.75},
+  {name:'Italy',flag:'🇮🇹',code:'IT',currency:'EUR',symbol:'€',lang:'it',laborMult:0.85},
+  {name:'Switzerland',flag:'🇨🇭',code:'CH',currency:'CHF',symbol:'CHF',lang:'fr',laborMult:1.9},
+  {name:'UAE / Dubai',flag:'🇦🇪',code:'AE',currency:'AED',symbol:'AED',lang:'ar',laborMult:0.9},
+  {name:'Saudi Arabia',flag:'🇸🇦',code:'SA',currency:'SAR',symbol:'SAR',lang:'ar',laborMult:0.85},
+  {name:'Japan',flag:'🇯🇵',code:'JP',currency:'JPY',symbol:'¥',lang:'ja',laborMult:1.1},
+  {name:'China',flag:'🇨🇳',code:'CN',currency:'CNY',symbol:'¥',lang:'zh',laborMult:0.55},
+  {name:'Canada',flag:'🇨🇦',code:'CA',currency:'CAD',symbol:'CA$',lang:'en',laborMult:1.25},
+  {name:'Australia',flag:'🇦🇺',code:'AU',currency:'AUD',symbol:'A$',lang:'en',laborMult:1.35},
+  {name:'Brazil',flag:'🇧🇷',code:'BR',currency:'BRL',symbol:'R$',lang:'pt',laborMult:0.45},
+  {name:'Portugal',flag:'🇵🇹',code:'PT',currency:'EUR',symbol:'€',lang:'pt',laborMult:0.65},
+  {name:'Morocco',flag:'🇲🇦',code:'MA',currency:'MAD',symbol:'MAD',lang:'fr',laborMult:0.25},
+  {name:'Algeria',flag:'🇩🇿',code:'DZ',currency:'DZD',symbol:'DZD',lang:'fr',laborMult:0.2},
+  {name:'Tunisia',flag:'🇹🇳',code:'TN',currency:'TND',symbol:'TND',lang:'fr',laborMult:0.22},
+  {name:'Belgium',flag:'🇧🇪',code:'BE',currency:'EUR',symbol:'€',lang:'fr',laborMult:1.05},
+  {name:'Netherlands',flag:'🇳🇱',code:'NL',currency:'EUR',symbol:'€',lang:'en',laborMult:1.1},
+  {name:'Poland',flag:'🇵🇱',code:'PL',currency:'PLN',symbol:'zł',lang:'en',laborMult:0.45},
+  {name:'Russia',flag:'🇷🇺',code:'RU',currency:'RUB',symbol:'₽',lang:'ru',laborMult:0.35},
+  {name:'Turkey',flag:'🇹🇷',code:'TR',currency:'TRY',symbol:'₺',lang:'en',laborMult:0.3},
+  {name:'Mexico',flag:'🇲🇽',code:'MX',currency:'MXN',symbol:'MX$',lang:'es',laborMult:0.35},
+  {name:'India',flag:'🇮🇳',code:'IN',currency:'INR',symbol:'₹',lang:'en',laborMult:0.18},
+  {name:'South Africa',flag:'🇿🇦',code:'ZA',currency:'ZAR',symbol:'R',lang:'en',laborMult:0.3},
+  {name:'Senegal',flag:'🇸🇳',code:'SN',currency:'XOF',symbol:'XOF',lang:'fr',laborMult:0.15},
+  {name:'Côte d\'Ivoire',flag:'🇨🇮',code:'CI',currency:'XOF',symbol:'XOF',lang:'fr',laborMult:0.14},
+  {name:'Qatar',flag:'🇶🇦',code:'QA',currency:'QAR',symbol:'QAR',lang:'ar',laborMult:1.2},
+  {name:'Kuwait',flag:'🇰🇼',code:'KW',currency:'KWD',symbol:'KWD',lang:'ar',laborMult:1.1},
+  {name:'Singapore',flag:'🇸🇬',code:'SG',currency:'SGD',symbol:'S$',lang:'en',laborMult:1.4},
+];
+
+// ── PROJECT PHOTOS ──
+const PROJECT_PHOTOS={'cuisine':'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&h=300&fit=crop&q=80','kitchen':'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&h=300&fit=crop&q=80','salle de bain':'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&h=300&fit=crop&q=80','bathroom':'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&h=300&fit=crop&q=80','extension':'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=300&fit=crop&q=80','maison':'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=300&fit=crop&q=80','house':'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=300&fit=crop&q=80','construction':'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&h=300&fit=crop&q=80','appartement':'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=900&h=300&fit=crop&q=80','apartment':'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=900&h=300&fit=crop&q=80','toiture':'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&h=300&fit=crop&q=80','roof':'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&h=300&fit=crop&q=80','bureau':'https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&h=300&fit=crop&q=80','office':'https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&h=300&fit=crop&q=80','piscine':'https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=900&h=300&fit=crop&q=80','pool':'https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=900&h=300&fit=crop&q=80','villa':'https://images.unsplash.com/photo-1613977257363-707ba9348227?w=900&h=300&fit=crop&q=80','entrepôt':'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=900&h=300&fit=crop&q=80','warehouse':'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=900&h=300&fit=crop&q=80','hotel':'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=900&h=300&fit=crop&q=80','hôtel':'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=900&h=300&fit=crop&q=80','default':'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&h=300&fit=crop&q=80'};
+function getProjectPhoto(t){const l=(t||'').toLowerCase();for(const[k,u]of Object.entries(PROJECT_PHOTOS))if(l.includes(k))return u;return PROJECT_PHOTOS.default}
+
+// ══════════════════════════════════════════════
+// LANG DROPDOWN
+// ══════════════════════════════════════════════
+function buildLangDrop(){
+  const m=document.getElementById('langDropMenu');
+  m.innerHTML=ALL_LANGS.map(l=>`<div class="lang-opt ${l.code===currentLang?'active':''}" onclick="setLang('${l.code}')"><span class="lang-opt-flag">${l.flag}</span><span class="lang-opt-name">${l.name}</span><span class="lang-opt-code">${l.code.toUpperCase()}</span></div>`).join('');
+}
+function toggleLangDrop(){
+  const m=document.getElementById('langDropMenu');
+  const b=document.getElementById('langActivBtn');
+  const o=m.classList.toggle('open');
+  b.classList.toggle('open',o);
+  if(o)buildLangDrop();
+}
+document.addEventListener('click',e=>{
+  if(!e.target.closest('#langActivBtn')&&!e.target.closest('#langDropMenu')){document.getElementById('langDropMenu').classList.remove('open');document.getElementById('langActivBtn').classList.remove('open')}
+  if(!e.target.closest('#countryInput')&&!e.target.closest('#countryDrop')){const d=document.getElementById('countryDrop');if(d)d.classList.remove('open')}
+  if(!e.target.closest('#ctaCountry')&&!e.target.closest('#ctaCountryDrop')){const d=document.getElementById('ctaCountryDrop');if(d)d.classList.remove('open')}
+});
+
+// ══════════════════════════════════════════════
+// SET LANGUAGE
+// ══════════════════════════════════════════════
+function setLang(lang){
+  currentLang=lang;
+  const t=T[lang]||T.fr;
+  const l=ALL_LANGS.find(x=>x.code===lang);
+  document.documentElement.lang=lang;
+  document.title=t.title;
+  document.getElementById('langActivLabel').textContent=l.flag+' '+l.name;
+  document.getElementById('langDropMenu').classList.remove('open');
+  document.getElementById('langActivBtn').classList.remove('open');
+  document.body.style.direction=lang==='ar'?'rtl':'ltr';
+  document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(t[k]!==undefined)el.innerHTML=t[k]});
+  const phs={countryInput:t.ph_country,regionInput:t.ph_region,cityInput:t.ph_city,descInput:t.ph_desc};
+  Object.entries(phs).forEach(([id,ph])=>{const el=document.getElementById(id);if(el)el.placeholder=ph});
+  buildLangDrop();
+}
+buildLangDrop();
+
+// ══════════════════════════════════════════════
+// COUNTRY AUTOCOMPLETE — TOOL
+// ══════════════════════════════════════════════
+function buildCountryDrop(filter=''){
+  const drop=document.getElementById('countryDrop');
+  const lower=filter.toLowerCase();
+  const list=filter?COUNTRIES.filter(c=>c.name.toLowerCase().includes(lower)):COUNTRIES;
+  drop.innerHTML=list.slice(0,8).map(c=>`<div class="country-item" onclick="selectCountry('${c.code}')"><span style="font-size:18px">${c.flag}</span><span>${c.name}</span><span style="color:var(--muted);font-size:11px;margin-left:auto">${c.currency}</span></div>`).join('');
+  drop.classList.toggle('open',list.length>0);
+}
+function filterCountries(val){buildCountryDrop(val)}
+function openCountryDrop(){buildCountryDrop(document.getElementById('countryInput').value)}
+function selectCountry(code){
+  selectedCountry=COUNTRIES.find(c=>c.code===code);
+  document.getElementById('countryInput').value=selectedCountry.name;
+  document.getElementById('selFlag').textContent=selectedCountry.flag;
+  document.getElementById('countryDrop').classList.remove('open');
+  // Show region & city fields
+  document.getElementById('locationFields').classList.add('show');
+  document.getElementById('regionInput').focus();
+}
+
+// ══════════════════════════════════════════════
+// COUNTRY AUTOCOMPLETE — CTA FORM
+// ══════════════════════════════════════════════
+function buildCtaCountryDrop(filter=''){
+  const drop=document.getElementById('ctaCountryDrop');
+  const lower=filter.toLowerCase();
+  const list=filter?COUNTRIES.filter(c=>c.name.toLowerCase().includes(lower)):COUNTRIES;
+  drop.innerHTML=list.slice(0,8).map(c=>`<div class="country-form-item" onclick="selectCtaCountry('${c.code}')"><span style="font-size:16px">${c.flag}</span><span>${c.name}</span></div>`).join('');
+  drop.classList.toggle('open',list.length>0);
+}
+function filterCtaCountry(val){buildCtaCountryDrop(val)}
+function openCtaCountryDrop(){buildCtaCountryDrop(document.getElementById('ctaCountry').value)}
+function selectCtaCountry(code){
+  const c=COUNTRIES.find(x=>x.code===code);
+  document.getElementById('ctaCountry').value=c.name;
+  document.getElementById('ctaCountryFlag').textContent=c.flag;
+  document.getElementById('ctaCountryDrop').classList.remove('open');
+  document.getElementById('ctaLocationRow').classList.add('show');
+  document.getElementById('ctaRegion').focus();
+}
+
+// ══════════════════════════════════════════════
+// FILE UPLOADS
+// ══════════════════════════════════════════════
+const zone=document.getElementById('uploadZone');
+zone.addEventListener('dragover',e=>{e.preventDefault();zone.classList.add('drag')});
+zone.addEventListener('dragleave',()=>zone.classList.remove('drag'));
+zone.addEventListener('drop',e=>{e.preventDefault();zone.classList.remove('drag');handleFiles(e.dataTransfer.files)});
+
+function handleFiles(files){
+  for(const f of files){
+    if(uploadedFiles.find(u=>u.name===f.name))continue;
+    if(f.size>10*1024*1024){alert('Fichier trop lourd (max 10 Mo): '+f.name);continue}
+    uploadedFiles.push(f);renderChip(f,'filesList',uploadedFiles);
+  }
+}
+function handleCtaFiles(files){
+  for(const f of files){
+    if(ctaUploadedFiles.find(u=>u.name===f.name))continue;
+    ctaUploadedFiles.push(f);renderCtaChip(f);
+  }
+}
+function renderChip(f,listId,arr){
+  const list=document.getElementById(listId);
+  const icon=f.type==='application/pdf'?'📄':'🖼️';
+  const size=f.size>1024*1024?(f.size/1024/1024).toFixed(1)+' MB':(f.size/1024).toFixed(0)+' KB';
+  const chip=document.createElement('div');chip.className='file-chip';chip.id='chip-'+f.name.replace(/\W/g,'_');
+  chip.innerHTML=`<span class="fc-icon">${icon}</span><span class="fc-name">${f.name}</span><span class="fc-size">${size}</span><button class="fc-del" onclick="removeFile('${f.name}','${listId}')">✕</button>`;
+  list.appendChild(chip);
+}
+function renderCtaChip(f){
+  const list=document.getElementById('ctaFilesList');
+  const chip=document.createElement('div');chip.className='cta-file-chip';chip.id='ctachip-'+f.name.replace(/\W/g,'_');
+  const size=f.size>1024*1024?(f.size/1024/1024).toFixed(1)+' MB':(f.size/1024).toFixed(0)+' KB';
+  chip.innerHTML=`<span>${f.type==='application/pdf'?'📄':'🖼️'}</span><span class="cta-fc-name">${f.name} (${size})</span><button class="cta-fc-del" onclick="removeCtaFile('${f.name}')">✕</button>`;
+  list.appendChild(chip);
+}
+function removeFile(name,listId){
+  uploadedFiles=uploadedFiles.filter(f=>f.name!==name);
+  document.getElementById('chip-'+name.replace(/\W/g,'_'))?.remove();
+}
+function removeCtaFile(name){
+  ctaUploadedFiles=ctaUploadedFiles.filter(f=>f.name!==name);
+  document.getElementById('ctachip-'+name.replace(/\W/g,'_'))?.remove();
+}
+async function fileToBase64(file){return new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>res(r.result.split(',')[1]);r.onerror=rej;r.readAsDataURL(file)})}
+
+// ══════════════════════════════════════════════
+// STATUS
+// ══════════════════════════════════════════════
+function setStatus(state,text,detail){
+  const pill=document.getElementById('statPill');pill.className='stat-pill '+state;
+  const dot=pill.querySelector('.stat-dot');dot.className='stat-dot'+(state==='loading'?' spin':'');
+  document.getElementById('statText').textContent=text;
+  if(detail!==undefined)document.getElementById('statDetail').textContent=detail;
+}
+
+// ══════════════════════════════════════════════
+// START GENERATE — direct, no payment needed
+// ══════════════════════════════════════════════
+function startGenerate(){
+  const country = selectedCountry || COUNTRIES[0];
+  const desc = document.getElementById('descInput').value;
+  if (!selectedCountry) {
+    document.getElementById('countryInput').focus();
+    document.getElementById('countryInput').style.borderColor = 'var(--ochre)';
+    setTimeout(()=>document.getElementById('countryInput').style.borderColor='', 2000);
+    return;
+  }
+  showPayBanner('', true);
+  generateQuote('');
+}
+
+function showPayBanner(email, free){
+  document.getElementById('emptyState')?.remove();
+  const panel = document.getElementById('outPanel');
+  panel.querySelector('.pay-success-banner')?.remove();
+  const banner = document.createElement('div');
+  banner.className = 'pay-success-banner';
+  banner.innerHTML = `<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> 🎉 Génération gratuite en cours…`;
+  const statusRow = panel.querySelector('.status-row');
+  if (statusRow) panel.insertBefore(banner, statusRow.nextSibling);
+  else panel.prepend(banner);
+}
+
+// ══════════════════════════════════════════════
+// BACKEND URL — update with your deployed server
+// ══════════════════════════════════════════════
+const BACKEND_URL = 'https://mondevis-hostinger-production.up.railway.app/generate-quote'; 
+// ══════════════════════════════════════════════
+// GENERATE QUOTE
+// ══════════════════════════════════════════════
+async function generateQuote(email){
+  const t=T[currentLang]||T.fr;
+  const country=selectedCountry||COUNTRIES[0];
+  const region=document.getElementById('regionInput').value;
+  const city=document.getElementById('cityInput').value;
+  const surface=document.getElementById('surfSlider').value;
+  const mat=document.getElementById('matSelect').value;
+  const profile=document.getElementById('profileSelect').value;
+  const desc=document.getElementById('descInput').value;
+  const location=[city,region,country.name].filter(Boolean).join(', ');
+  const btn=document.getElementById('btnGen');
+  btn.disabled=true;
+  setStatus('loading',t.stat_gen,'');
+  document.getElementById('emptyState')?.remove();
+  showSkeleton();
+
+  const msgContent=[];
+  for(const f of uploadedFiles){
+    try{
+      const b64=await fileToBase64(f);
+      if(f.type==='application/pdf'){msgContent.push({type:'document',source:{type:'base64',media_type:'application/pdf',data:b64},title:f.name})}
+      else{msgContent.push({type:'image',source:{type:'base64',media_type:f.type||'image/jpeg',data:b64}})}
+    }catch(e){console.warn('file error',f.name)}
+  }
+
+  const langName={fr:'French',en:'English',es:'Spanish',de:'German',ar:'Arabic',zh:'Chinese (Simplified)',pt:'Portuguese',ja:'Japanese',it:'Italian',ru:'Russian'}[currentLang]||'English';
+
+  const prompt=`You are a world-class construction cost estimator.
+Generate a detailed quote for:
+- Country: ${country.name} (${country.code}), Region: ${region||'N/A'}, City: ${city||country.name}
+- Currency: ${country.currency} (${country.symbol})
+- Surface area: ${surface} m², Materials: ${mat}, Profile: ${profile}
+- Description: ${desc||'Standard construction/renovation project'}
+${uploadedFiles.length>0?'- Analyze the attached plans/documents.':''}
+
+ALL prices in ${country.currency}. Respond entirely in ${langName}. Use local construction terminology for ${country.name}.
+
+Respond ONLY with valid JSON (no markdown):
+{"devis_id":"QT-XXXX","projet":"title","surface":"${surface} m²","localisation":"${location}","duree_estimee":"X to Y weeks","currency":"${country.currency}","symbol":"${country.symbol}","postes":[{"label":"item","detail":"desc","prix_ht":NUMBER}],"sous_total_ht":NUMBER,"tva":NUMBER,"tva_rate":"X%","total_ttc":NUMBER,"resume":"2-3 sentence expert summary in ${langName}"}
+
+Generate 5-8 realistic line items for ${country.name} market at ${mat} quality.`;
+
+  msgContent.push({type:'text',text:prompt});
+
+  try{
+    // Call your backend proxy (which holds the API key securely)
+    const res=await fetch(`${BACKEND_URL}/generate-quote`,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({model:'claude-3-5-sonnet-20241022',max_tokens:1200,messages:[{role:'user',content:msgContent}]})
+    });
+    if(!res.ok)throw new Error('API '+res.status);
+    const d=await res.json();
+    const raw=d.content?.find(b=>b.type==='text')?.text||'';
+    const q=JSON.parse(raw.replace(/```json|```/g,'').trim());
+    quoteN++;
+    renderQuote(q,country);
+    setStatus('ok',t.stat_ok,`${(Math.random()*.9+.5).toFixed(1)}s · ${country.symbol} ${country.currency}`);
+  }catch(err){
+    document.getElementById('skelLoader')?.remove();
+    setStatus('err',(T[currentLang]||T.fr).stat_err,err.message);
+  }finally{btn.disabled=false}
+}
+
+function showSkeleton(){
+  const panel=document.getElementById('outPanel');
+  panel.querySelectorAll('.qcard,.batch-wrap,.codeblock').forEach(e=>e.remove());
+  const sk=document.createElement('div');sk.id='skelLoader';
+  sk.innerHTML=`<div class="qcard" style="opacity:.4"><div class="qcard-head"><div style="flex:1">${['80px','180px','120px'].map(w=>`<div class="skel" style="width:${w};height:12px;margin-bottom:8px"></div>`).join('')}</div><div><div class="skel" style="width:90px;height:32px"></div></div></div><div class="qitems">${[1,2,3,4,5].map(()=>'<div class="skel" style="height:12px;margin-bottom:12px"></div>').join('')}</div></div>`;
+  panel.appendChild(sk);
+}
+
+// ══════════════════════════════════════════════
+// PDF GENERATION (client-side, no library needed)
+// ══════════════════════════════════════════════
+function generatePDF(q, country) {
+  const sym = q.symbol || country.symbol;
+  const fmt = n => Number(n).toLocaleString();
+  const date = new Date().toLocaleDateString('fr-FR');
+
+  // Build HTML for print-to-PDF
+  const html = `<!DOCTYPE html><html><head><meta charset="UTF-8"/>
+  <style>
+    body{font-family:Arial,sans-serif;color:#1A1612;padding:40px;max-width:800px;margin:0 auto}
+    .header{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:3px solid #C8832A;padding-bottom:20px;margin-bottom:30px}
+    .logo{font-size:28px;font-weight:900;color:#1A1612}
+    .logo span{color:#C8832A}
+    .meta{text-align:right;font-size:12px;color:#8C8070}
+    .id{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#C8832A;margin-bottom:8px}
+    h1{font-size:24px;margin:0 0 6px}
+    .info{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:28px;background:#F5F0E8;padding:16px;border-radius:4px}
+    .info-item{font-size:12px}.info-item strong{display:block;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#8C8070;margin-bottom:2px}
+    table{width:100%;border-collapse:collapse;margin-bottom:24px}
+    th{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#8C8070;padding:8px 0;border-bottom:2px solid #D6CFC4;text-align:left}
+    th:last-child{text-align:right}
+    td{padding:10px 0;font-size:13px;border-bottom:1px solid #F0EBE3}
+    td:last-child{text-align:right;font-weight:600}
+    .detail{font-size:11px;color:#8C8070;margin-top:2px}
+    .totals{margin-left:auto;width:300px}
+    .trow{display:flex;justify-content:space-between;padding:7px 0;font-size:13px;border-bottom:1px solid #F0EBE3}
+    .trow.big{font-size:16px;font-weight:700;color:#C8832A;border-top:2px solid #C8832A;border-bottom:none;padding-top:12px;margin-top:4px}
+    .resume{margin-top:24px;padding:16px;background:#F5F0E8;border-left:4px solid #C8832A;font-size:13px;line-height:1.7;color:#5C5248;font-style:italic}
+    .footer{margin-top:40px;padding-top:16px;border-top:1px solid #D6CFC4;font-size:11px;color:#8C8070;text-align:center}
+  </style></head><body>
+  <div class="header">
+    <div><div class="logo">Mon<span>devis</span></div><div style="font-size:12px;color:#8C8070;margin-top:4px">plan@mondevis.click</div></div>
+    <div class="meta"><div>Date: ${date}</div><div style="margin-top:4px;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#C8832A">${q.devis_id||'QT-0001'}</div></div>
+  </div>
+  <div class="id">Devis de projet</div>
+  <h1>${q.projet||'Devis'}</h1>
+  <div class="info">
+    <div class="info-item"><strong>Localisation</strong>${country.flag} ${q.localisation||country.name}</div>
+    <div class="info-item"><strong>Surface</strong>${q.surface}</div>
+    <div class="info-item"><strong>Durée estimée</strong>${q.duree_estimee||'–'}</div>
+    <div class="info-item"><strong>Devise</strong>${country.currency} (${sym})</div>
+  </div>
+  <table>
+    <thead><tr><th>Poste de travaux</th><th>Détail</th><th>Prix HT (${sym})</th></tr></thead>
+    <tbody>${(q.postes||[]).map(p=>`<tr><td><strong>${p.label}</strong><div class="detail">${p.detail||''}</div></td><td></td><td>${fmt(p.prix_ht)}</td></tr>`).join('')}</tbody>
+  </table>
+  <div class="totals">
+    <div class="trow"><span>Sous-total HT</span><span>${fmt(q.sous_total_ht)} ${sym}</span></div>
+    <div class="trow"><span>TVA ${q.tva_rate||''}</span><span>${fmt(q.tva)} ${sym}</span></div>
+    <div class="trow big"><span>Total TTC</span><span>${fmt(q.total_ttc)} ${sym}</span></div>
+  </div>
+  ${q.resume?`<div class="resume">${q.resume}</div>`:''}
+  <div class="footer">Mondevis · plan@mondevis.click · Généré le ${date} · Ce devis est fourni à titre indicatif</div>
+  </body></html>`;
+
+  const win = window.open('','_blank');
+  win.document.write(html);
+  win.document.close();
+  win.focus();
+  setTimeout(()=>{ win.print(); }, 600);
+}
+
+// ══════════════════════════════════════════════
+// TEXT FILE GENERATION
+// ══════════════════════════════════════════════
+function generateTXT(q, country) {
+  const sym = q.symbol || country.symbol;
+  const fmt = n => Number(n).toLocaleString();
+  const date = new Date().toLocaleDateString('fr-FR');
+  const sep = '─'.repeat(50);
+
+  let txt = `MONDEVIS — DEVIS DE PROJET\n${sep}\n`;
+  txt += `Référence    : ${q.devis_id||'QT-0001'}\n`;
+  txt += `Date         : ${date}\n`;
+  txt += `Projet       : ${q.projet||'–'}\n`;
+  txt += `Localisation : ${country.flag} ${q.localisation||country.name}\n`;
+  txt += `Surface      : ${q.surface}\n`;
+  txt += `Durée estimée: ${q.duree_estimee||'–'}\n`;
+  txt += `Devise       : ${country.currency} (${sym})\n\n`;
+  txt += `POSTES DE TRAVAUX\n${sep}\n`;
+  (q.postes||[]).forEach((p,i)=>{
+    txt += `${String(i+1).padStart(2,'0')}. ${p.label}\n`;
+    if(p.detail) txt += `    ${p.detail}\n`;
+    txt += `    Prix HT : ${fmt(p.prix_ht)} ${sym}\n\n`;
+  });
+  txt += `${sep}\n`;
+  txt += `Sous-total HT : ${fmt(q.sous_total_ht)} ${sym}\n`;
+  txt += `TVA ${q.tva_rate||''} : ${fmt(q.tva)} ${sym}\n`;
+  txt += `TOTAL TTC     : ${fmt(q.total_ttc)} ${sym}\n`;
+  txt += `${sep}\n\n`;
+  if(q.resume) txt += `COMMENTAIRE EXPERT\n${q.resume}\n\n`;
+  txt += `${sep}\nMondevis · plan@mondevis.click\nCe devis est fourni à titre indicatif.\n`;
+
+  const blob = new Blob([txt], {type:'text/plain;charset=utf-8'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `${q.devis_id||'devis'}_${(q.projet||'mondevis').replace(/\s+/g,'-')}.txt`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function renderQuote(q,country){
+  document.getElementById('skelLoader')?.remove();
+  const panel=document.getElementById('outPanel');
+  panel.querySelectorAll('.qcard,.batch-wrap,.codeblock').forEach(e=>e.remove());
+  const sym=q.symbol||country.symbol;
+  const fmt=n=>Number(n).toLocaleString();
+  const photoUrl=getProjectPhoto(q.projet||'');
+  const card=document.createElement('div');card.className='qcard';
+  card.innerHTML=`
+    <div class="qcard-photo-wrap"><img class="qcard-photo" src="${photoUrl}" alt="${q.projet||'Project'}" loading="lazy"/><div class="qcard-photo-label">${country.flag} ${q.localisation||country.name}</div></div>
+    <div class="qcard-head">
+      <div><div class="qcard-id">${q.devis_id||'QT-'+String(quoteN).padStart(4,'0')}</div><div class="qcard-title">${q.projet||'Quote'}</div><div class="qcard-meta"><span>📐 ${q.surface}</span><span>⏱ ${q.duree_estimee||'–'}</span></div></div>
+      <div><div class="qcard-ttc-label">Total TTC</div><div class="qcard-ttc">${fmt(q.total_ttc)} <small>${sym}</small></div></div>
+    </div>
+    <div class="qitems"><table class="qtable"><thead><tr><th>Poste</th><th>${sym} HT</th></tr></thead><tbody>${(q.postes||[]).map(p=>`<tr><td><div>${p.label}</div><div class="td-detail">${p.detail||''}</div></td><td>${fmt(p.prix_ht)}</td></tr>`).join('')}</tbody></table></div>
+    <div class="qtotals"><div class="trow"><span>Sous-total HT</span><span>${fmt(q.sous_total_ht)} ${sym}</span></div><div class="trow"><span>TVA ${q.tva_rate||''}</span><span>${fmt(q.tva)} ${sym}</span></div><div class="trow big"><span>Total TTC</span><span>${fmt(q.total_ttc)} ${sym}</span></div></div>
+    ${q.resume?`<div class="qsummary"><div class="qs-label">Expert</div><p class="qs-text">${q.resume}</p></div>`:''}
+    ${uploadedFiles.length>0?`<div class="qfiles">${uploadedFiles.map(f=>`<span class="qfile-tag">📎 ${f.name}</span>`).join('')}</div>`:''}
+    <div style="display:flex;gap:10px;padding:18px 26px;border-top:1px solid var(--stone-light);background:var(--cream);">
+      <button onclick="generatePDF(${JSON.stringify(q).replace(/"/g,'&quot;')}, ${JSON.stringify(country).replace(/"/g,'&quot;')})"
+        style="flex:1;display:flex;align-items:center;justify-content:center;gap:8px;background:var(--ink);color:white;border:none;padding:12px 16px;border-radius:6px;font-size:13px;font-weight:600;font-family:'DM Sans',sans-serif;cursor:pointer;transition:background .2s;"
+        onmouseover="this.style.background='var(--ochre)'" onmouseout="this.style.background='var(--ink)'">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 11v2h11v-2M7.5 1v9M4 7l3.5 3.5L11 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Télécharger PDF
+      </button>
+      <button onclick="generateTXT(${JSON.stringify(q).replace(/"/g,'&quot;')}, ${JSON.stringify(country).replace(/"/g,'&quot;')})"
+        style="flex:1;display:flex;align-items:center;justify-content:center;gap:8px;background:var(--cream);color:var(--ink);border:1px solid var(--stone-light);padding:12px 16px;border-radius:6px;font-size:13px;font-weight:600;font-family:'DM Sans',sans-serif;cursor:pointer;transition:all .2s;"
+        onmouseover="this.style.background='var(--stone-light)'" onmouseout="this.style.background='var(--cream)'">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><rect x="2" y="1" width="11" height="13" rx="1.5" stroke="currentColor" stroke-width="1.5"/><path d="M5 5h5M5 7.5h5M5 10h3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+        Télécharger TXT
+      </button>
+    </div>`;
+  panel.appendChild(card);
+}
+
+// ── BATCH ──
+async function runBatch(){
+  const t=T[currentLang]||T.fr;
+  document.getElementById('emptyState')?.remove();
+  const panel=document.getElementById('outPanel');
+  panel.querySelectorAll('.qcard,.batch-wrap,.codeblock,.pay-success-banner').forEach(e=>e.remove());
+  setStatus('loading',t.stat_gen,'0/5');
+  const countries5=[COUNTRIES.find(c=>c.code==='FR'),COUNTRIES.find(c=>c.code==='US'),COUNTRIES.find(c=>c.code==='AE'),COUNTRIES.find(c=>c.code==='JP'),COUNTRIES.find(c=>c.code==='BR')];
+  const surface=document.getElementById('surfSlider').value;
+  const desc=document.getElementById('descInput').value||'Construction renovation project';
+  const wrap=document.createElement('div');wrap.className='batch-wrap';
+  wrap.innerHTML=`<div class="batch-title">⚡ Batch — 5 pays simultanés</div>`;
+  panel.appendChild(wrap);
+  countries5.forEach((c,i)=>{
+    const bc=document.createElement('div');bc.className='bcard';bc.id=`bc${i}`;
+    bc.innerHTML=`<div class="bnum">#${i+1}</div><div class="binfo"><div class="blabel">${desc.substring(0,30)}</div><div class="bsub">${c.flag} ${c.name} · ${surface}m²</div></div><div class="bstatus pending">…</div>`;
+    wrap.appendChild(bc);
+  });
+  let done=0;
+  await Promise.all(countries5.map(async(c,i)=>{
+    await new Promise(r=>setTimeout(r,i*150));
+    const prompt=`Construction cost expert. Project: ${desc.substring(0,100)}, ${surface}m², ${c.name}. JSON only: {"projet":"${desc.substring(0,30)}","total_ttc":NUMBER,"duree":"X weeks","currency":"${c.currency}","symbol":"${c.symbol}"}`;
+    try{
+      const res=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-3-5-sonnet-20241022',max_tokens:150,messages:[{role:'user',content:prompt}]})});
+      const d=await res.json();
+      const q=JSON.parse((d.content?.find(b=>b.type==='text')?.text||'{}').replace(/```json|```/g,'').trim());
+      done++;setStatus('loading',t.stat_gen,`${done}/5`);
+      const bc=document.getElementById(`bc${i}`);
+      bc.innerHTML=`<div class="bnum">#${i+1}</div><div class="binfo"><div class="blabel">${desc.substring(0,30)}</div><div class="bsub">${c.flag} ${c.name} · ${surface}m² · ${q.duree||'–'}</div></div><div class="bprice">${Number(q.total_ttc||0).toLocaleString()} ${q.symbol||c.symbol}</div><div class="bstatus">✓</div>`;
+    }catch(e){const bc=document.getElementById(`bc${i}`);if(bc)bc.querySelector('.bstatus').textContent='ERR'}
+  }));
+  setStatus('ok',t.stat_ok,'5 pays · Gratuit');
+}
+
+// ── CTA FORM SUBMIT ──
+function handleCtaSubmit(e){
+  e.preventDefault();
+  const btn=document.getElementById('ctaSubmitBtn');
+  const t=T[currentLang]||T.fr;
+  btn.querySelector('[data-i18n]').textContent=t.form_success||'✓ Envoyé !';
+  btn.style.background='var(--ink)';btn.style.color='white';btn.disabled=true;
+}
+
+// ── CURSOR ──
+const cursor=document.getElementById('cursor'),ring=document.getElementById('cursor-ring');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cursor.style.left=mx+'px';cursor.style.top=my+'px'});
+function animRing(){rx+=(mx-rx)*.12;ry+=(my-ry)*.12;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(animRing)}
+animRing();
+document.querySelectorAll('a,button,input,select,textarea').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{cursor.style.transform='translate(-50%,-50%) scale(2)';ring.style.opacity='0'});
+  el.addEventListener('mouseleave',()=>{cursor.style.transform='translate(-50%,-50%) scale(1)';ring.style.opacity='.6'});
+});
+
+// ── NAV SCROLL ──
+window.addEventListener('scroll',()=>document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>60));
+
+// ── FADE IN ──
+const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.12});
+document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
