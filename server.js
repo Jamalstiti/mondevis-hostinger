@@ -31,9 +31,7 @@ const limiter = rateLimit({
   message: { error: 'Too many requests, please try again later.' }
 });
 
-app.post('/generate-quote', limiter, async (req, res) => {
-  // ... existing code
-});
+
 
 // ── CORS ──────────────────────────────────────
 app.use(cors({
