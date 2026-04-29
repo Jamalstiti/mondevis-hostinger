@@ -948,7 +948,7 @@ Generate 5-8 realistic line items for ${country.name} market at ${mat} quality.`
     const res=await fetch(`${BACKEND_URL}/generate-quote`,{
       method:'POST',
       headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({model:'claude-3-5-sonnet-20241022',max_tokens:1200,messages:[{role:'user',content:msgContent}]})
+      body:JSON.stringify({model:'claude-sonnet-4-6',max_tokens:1200,messages:[{role:'user',content:msgContent}]})
     });
     if(!res.ok)throw new Error('API '+res.status);
     const d=await res.json();
@@ -1133,7 +1133,7 @@ async function runBatch(){
     await new Promise(r=>setTimeout(r,i*150));
     const prompt=`Construction cost expert. Project: ${desc.substring(0,100)}, ${surface}m², ${c.name}. JSON only: {"projet":"${desc.substring(0,30)}","total_ttc":NUMBER,"duree":"X weeks","currency":"${c.currency}","symbol":"${c.symbol}"}`;
     try{
-      const res=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-3-5-sonnet-20241022',max_tokens:150,messages:[{role:'user',content:prompt}]})});
+      const res=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-sonnet-4-6',max_tokens:150,messages:[{role:'user',content:prompt}]})});
       const d=await res.json();
       const q=JSON.parse((d.content?.find(b=>b.type==='text')?.text||'{}').replace(/```json|```/g,'').trim());
       done++;setStatus('loading',t.stat_gen,`${done}/5`);
