@@ -21,6 +21,20 @@ const cors    = require('cors');
 
 const app = express();
 
+
+// npm install express-rate-limit
+const rateLimit = require('express-rate-limit');
+
+const limiter = rateLimit({
+  windowMs: 60 * 60 * 1000, // 1 hour
+  max: 5, // max 10 quotes per IP per hour
+  message: { error: 'Too many requests, please try again later.' }
+});
+
+app.post('/generate-quote', limiter, async (req, res) => {
+  // ... existing code
+});
+
 // ── CORS ──────────────────────────────────────
 app.use(cors({
   origin: process.env.FRONTEND_URL || '*',
