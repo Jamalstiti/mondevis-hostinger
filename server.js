@@ -84,7 +84,7 @@ app.post('/generate-quote', limiter, async (req, res) => {
         'anthropic-beta':    'pdfs-2024-09-25'
       },
       body: JSON.stringify({
-       model: req.body.model || 'claude-3-5-sonnet-20241022',
+       model: req.body.model || 'claude-sonnet-4-6',
         max_tokens: req.body.max_tokens || 1200,
         messages:   req.body.messages
       })
