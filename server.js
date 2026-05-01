@@ -85,7 +85,7 @@ app.post('/generate-quote', limiter, async (req, res) => {
       },
       body: JSON.stringify({
        model: req.body.model || 'claude-sonnet-4-6',
-        max_tokens: req.body.max_tokens || 1200,
+        max_tokens: req.body.max_tokens || 200000,
         messages:   req.body.messages
       })
     });
